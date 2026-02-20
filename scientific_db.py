@@ -6,26 +6,40 @@ import shutil
 router = APIRouter()
 DB_COPIED = False
 
+# 🚀 終極雷達：讓伺服器自己把雲端隨身碟裡有什麼東西印出來
+@router.get("/debug")
+async def system_check():
+    debug_info = {
+        "1_gcs_folder_exists": os.path.exists("/mnt/gcs"),
+        "2_files_in_gcs": os.listdir("/mnt/gcs") if os.path.exists("/mnt/gcs") else [],
+        "3_files_in_ram": os.listdir("/tmp") if os.path.exists("/tmp") else []
+    }
+    return debug_info
+
 @router.get("/network")
 async def get_targeted_network(seed: str, mode: str = 'All', all_seeds: str = '', limit: int = 500):
     global DB_COPIED
+    error_msg = "No error"
     
-    # 🚀 終極黑科技：延遲載入 (Lazy Loading) 記憶體資料庫
-    # 檢查是否在雲端環境
+    # 自動適應檔名大小寫 (很多時候是上傳時變成大寫 R 導致找不到)
+    gcs_db_path = None
     if os.path.exists("/mnt/gcs/regulon.db"):
-        LOCAL_DB = "/tmp/regulon.db" # Cloud Run 的 /tmp 是超高速的 RAM 記憶體
+        gcs_db_path = "/mnt/gcs/regulon.db"
+    elif os.path.exists("/mnt/gcs/Regulon.db"):
+        gcs_db_path = "/mnt/gcs/Regulon.db"
         
-        # 只有在「第一次」有人查詢時，才把資料庫拷貝到高速記憶體
+    if gcs_db_path:
+        LOCAL_DB = "/tmp/regulon.db"
         if not DB_COPIED or not os.path.exists(LOCAL_DB):
             try:
-                print("🚀 [System] Initializing... Copying 1.7GB DB to RAM (/tmp).")
-                shutil.copy2("/mnt/gcs/regulon.db", LOCAL_DB)
+                shutil.copy2(gcs_db_path, LOCAL_DB)
                 DB_COPIED = True
             except Exception as e:
-                print(f"❌ [System] DB Copy failed: {e}")
+                error_msg = f"RAM Copy Error: {e}"
         db_path_to_use = LOCAL_DB
     else:
         db_path_to_use = r"C:\Users\biobe\Desktop\API_Interactomes\regulon.db"
+        error_msg = "DB not found in GCS"
 
     seed = seed.upper()
     seed_list = [s.strip().upper() for s in all_seeds.split(',')] if all_seeds else []
@@ -34,7 +48,6 @@ async def get_targeted_network(seed: str, mode: str = 'All', all_seeds: str = ''
 
     if os.path.exists(db_path_to_use):
         try:
-            # 使用唯讀模式開啟記憶體中的資料庫
             db_uri = f"file:{db_path_to_use}?mode=ro"
             conn = sqlite3.connect(db_uri, uri=True)
             c = conn.cursor()
@@ -76,6 +89,6 @@ async def get_targeted_network(seed: str, mode: str = 'All', all_seeds: str = ''
                     seen.add(t)
             conn.close()
         except Exception as e:
-            print(f"Database Query Error: {e}")
+            error_msg = f"SQL Query Error: {e}"
 
-    return {"seed": seed, "edges": results}
+    return {"seed": seed, "edges": results, "debug_status": error_msg}
