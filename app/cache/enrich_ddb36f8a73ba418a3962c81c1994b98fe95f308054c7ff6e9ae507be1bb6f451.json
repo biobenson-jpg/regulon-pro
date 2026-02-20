@@ -1,0 +1,81 @@
+{
+  "tool": "gprofiler",
+  "organism": "hsapiens",
+  "sources": [
+    "GO:BP",
+    "REAC",
+    "KEGG"
+  ],
+  "terms": [
+    {
+      "source": "GO:BP",
+      "term_id": "GO:0006281",
+      "term_name": "DNA repair",
+      "p_value": 1.2324264125158116e-68,
+      "intersection_size": 48
+    },
+    {
+      "source": "GO:BP",
+      "term_id": "GO:0006259",
+      "term_name": "DNA metabolic process",
+      "p_value": 5.1820475882242265e-61,
+      "intersection_size": 49
+    },
+    {
+      "source": "GO:BP",
+      "term_id": "GO:0006974",
+      "term_name": "DNA damage response",
+      "p_value": 1.815691339855244e-60,
+      "intersection_size": 48
+    },
+    {
+      "source": "REAC",
+      "term_id": "REAC:R-HSA-5693532",
+      "term_name": "DNA Double-Strand Break Repair",
+      "p_value": 4.078438627354043e-59,
+      "intersection_size": 38
+    },
+    {
+      "source": "REAC",
+      "term_id": "REAC:R-HSA-5693567",
+      "term_name": "HDR through Homologous Recombination (HRR) or Single Strand Annealing (SSA)",
+      "p_value": 1.7247809778216754e-58,
+      "intersection_size": 36
+    },
+    {
+      "source": "REAC",
+      "term_id": "REAC:R-HSA-5693538",
+      "term_name": "Homology Directed Repair",
+      "p_value": 1.0595505201157843e-57,
+      "intersection_size": 36
+    },
+    {
+      "source": "GO:BP",
+      "term_id": "GO:0006302",
+      "term_name": "double-strand break repair",
+      "p_value": 1.4099586873612669e-56,
+      "intersection_size": 38
+    },
+    {
+      "source": "REAC",
+      "term_id": "REAC:R-HSA-73894",
+      "term_name": "DNA Repair",
+      "p_value": 2.691084319413245e-56,
+      "intersection_size": 42
+    },
+    {
+      "source": "GO:BP",
+      "term_id": "GO:0000075",
+      "term_name": "cell cycle checkpoint signaling",
+      "p_value": 1.0844214248628218e-53,
+      "intersection_size": 33
+    },
+    {
+      "source": "GO:BP",
+      "term_id": "GO:0031570",
+      "term_name": "DNA integrity checkpoint signaling",
+      "p_value": 1.6596656534347143e-52,
+      "intersection_size": 30
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 750px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"group": 9999, "id": "CDKN1A", "label": "CDKN1A", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 12}, {"group": 9999, "id": "AURKA", "label": "AURKA", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 10}, {"group": 9999, "id": "CCNG1", "label": "CCNG1", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 8}, {"group": 9999, "id": "FOXO3", "label": "FOXO3", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 3}, {"group": 9999, "id": "CCNA2", "label": "CCNA2", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 10}, {"group": 9999, "id": "GADD45A", "label": "GADD45A", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 9}, {"group": 9999, "id": "CDKN1B", "label": "CDKN1B", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 10}, {"group": 9999, "id": "CDK2", "label": "CDK2", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 13}, {"group": 9999, "id": "E2F1", "label": "E2F1", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 7}, {"group": 9999, "id": "PLK1", "label": "PLK1", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 9}, {"group": 9999, "id": "TPX2", "label": "TPX2", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 1}, {"group": 9999, "id": "TACC3", "label": "TACC3", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 1}, {"group": 9999, "id": "MYCN", "label": "MYCN", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 1}, {"group": 9999, "id": "CDC20", "label": "CDC20", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 3}, {"group": 9999, "id": "INCENP", "label": "INCENP", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 1}, {"group": 9999, "id": "BIRC5", "label": "BIRC5", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 1}, {"group": 9999, "id": "NEDD9", "label": "NEDD9", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 1}, {"group": 9999, "id": "CCNB2", "label": "CCNB2", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 1}, {"group": 9999, "id": "CCNB1", "label": "CCNB1", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 2}, {"group": 9999, "id": "CDK1", "label": "CDK1", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 3}, {"group": 9999, "id": "GAK", "label": "GAK", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 1}, {"group": 9999, "id": "CCNG2", "label": "CCNG2", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 1}, {"group": 9999, "id": "PPP2R5C", "label": "PPP2R5C", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 1}, {"group": 9999, "id": "PPP2R1A", "label": "PPP2R1A", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 1}, {"group": 9999, "id": "CDK5", "label": "CDK5", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 1}, {"group": 9999, "id": "CCNL2", "label": "CCNL2", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 2}, {"group": 9999, "id": "CDK4", "label": "CDK4", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 3}, {"group": 9999, "id": "CDK6", "label": "CDK6", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 3}, {"group": 9999, "id": "CCND3", "label": "CCND3", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 2}, {"group": 9999, "id": "CCNE1", "label": "CCNE1", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 2}, {"group": 9999, "id": "PCNA", "label": "PCNA", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 2}, {"group": 9999, "id": "CCND1", "label": "CCND1", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 3}, {"group": 9999, "id": "CCNA1", "label": "CCNA1", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 4}, {"group": 9999, "id": "CCNE2", "label": "CCNE2", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 2}, {"group": 9999, "id": "SKP2", "label": "SKP2", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 3}, {"group": 9999, "id": "ANAPC4", "label": "ANAPC4", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 1}, {"group": 9999, "id": "CCND2", "label": "CCND2", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 1}, {"group": 9999, "id": "CDKN1C", "label": "CDKN1C", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 1}, {"group": 9999, "id": "SKP1", "label": "SKP1", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 1}, {"group": 9999, "id": "BUB1B", "label": "BUB1B", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 1}, {"group": 9999, "id": "FZR1", "label": "FZR1", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 1}, {"group": 9999, "id": "ERCC6L", "label": "ERCC6L", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 1}, {"group": 9999, "id": "BORA", "label": "BORA", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 1}, {"group": 9999, "id": "BUB1", "label": "BUB1", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 1}, {"group": 9999, "id": "CENPU", "label": "CENPU", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 1}, {"group": 9999, "id": "TFDP1", "label": "TFDP1", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 1}, {"group": 9999, "id": "TFDP2", "label": "TFDP2", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 1}, {"group": 9999, "id": "RBL1", "label": "RBL1", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 1}, {"group": 9999, "id": "MAP3K4", "label": "MAP3K4", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 1}, {"group": 9999, "id": "TDG", "label": "TDG", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 1}, {"group": 9999, "id": "GADD45GIP1", "label": "GADD45GIP1", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 1}, {"group": 9999, "id": "GADD45B", "label": "GADD45B", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 1}]);
+                  edges = new vis.DataSet([{"from": "AURKA", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "TPX2", "value": 0.999}, {"from": "AURKA", "title": "STRING | ppi\u003cbr\u003escore: 0.998", "to": "TACC3", "value": 0.998}, {"from": "AURKA", "title": "STRING | ppi\u003cbr\u003escore: 0.998", "to": "MYCN", "value": 0.998}, {"from": "AURKA", "title": "STRING | ppi\u003cbr\u003escore: 0.997", "to": "PLK1", "value": 0.997}, {"from": "AURKA", "title": "STRING | ppi\u003cbr\u003escore: 0.995", "to": "CDC20", "value": 0.995}, {"from": "AURKA", "title": "STRING | ppi\u003cbr\u003escore: 0.994", "to": "INCENP", "value": 0.994}, {"from": "AURKA", "title": "STRING | ppi\u003cbr\u003escore: 0.993", "to": "BIRC5", "value": 0.993}, {"from": "AURKA", "title": "STRING | ppi\u003cbr\u003escore: 0.99", "to": "NEDD9", "value": 0.99}, {"from": "AURKA", "title": "STRING | ppi\u003cbr\u003escore: 0.988", "to": "CCNB2", "value": 0.988}, {"from": "FOXO3", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "CDK2", "value": 0.999}, {"from": "FOXO3", "title": "STRING | ppi\u003cbr\u003escore: 0.995", "to": "CDKN1A", "value": 0.995}, {"from": "CCNG1", "title": "STRING | ppi\u003cbr\u003escore: 0.963", "to": "GAK", "value": 0.963}, {"from": "CCNG1", "title": "STRING | ppi\u003cbr\u003escore: 0.911", "to": "CCNG2", "value": 0.911}, {"from": "CCNG1", "title": "STRING | ppi\u003cbr\u003escore: 0.849", "to": "PPP2R5C", "value": 0.849}, {"from": "CCNG1", "title": "STRING | ppi\u003cbr\u003escore: 0.818", "to": "PPP2R1A", "value": 0.818}, {"from": "CCNG1", "title": "STRING | ppi\u003cbr\u003escore: 0.817", "to": "CDK5", "value": 0.817}, {"from": "CCNG1", "title": "STRING | ppi\u003cbr\u003escore: 0.78", "to": "CCNL2", "value": 0.78}, {"from": "CCNG1", "title": "STRING | ppi\u003cbr\u003escore: 0.772", "to": "CDK1", "value": 0.772}, {"from": "CCNG1", "title": "STRING | ppi\u003cbr\u003escore: 0.735", "to": "CDK2", "value": 0.735}, {"from": "CDKN1A", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "CDK6", "value": 0.999}, {"from": "CDKN1A", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "CDK4", "value": 0.999}, {"from": "CDKN1A", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "CCND3", "value": 0.999}, {"from": "CDKN1A", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "CCNE1", "value": 0.999}, {"from": "CDKN1A", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "PCNA", "value": 0.999}, {"from": "CDKN1A", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "CCND1", "value": 0.999}, {"from": "CDKN1A", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "CCNA1", "value": 0.999}, {"from": "CDKN1A", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "CCNE2", "value": 0.999}, {"from": "CDKN1A", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "CDK2", "value": 0.999}, {"from": "CCNA2", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "CDK1", "value": 0.999}, {"from": "CCNA2", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "CDK2", "value": 0.999}, {"from": "CCNA2", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "SKP2", "value": 0.999}, {"from": "CCNA2", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "E2F1", "value": 0.999}, {"from": "CCNA2", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "CDKN1B", "value": 0.999}, {"from": "CCNA2", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "CDC20", "value": 0.999}, {"from": "CCNA2", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "ANAPC4", "value": 0.999}, {"from": "CCNA2", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "CDKN1A", "value": 0.999}, {"from": "CCNA2", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "CDK4", "value": 0.999}, {"from": "CCNA2", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "CDK6", "value": 0.999}, {"from": "CDKN1B", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "CDK4", "value": 0.999}, {"from": "CDKN1B", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "CDK6", "value": 0.999}, {"from": "CDKN1B", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "CCND3", "value": 0.999}, {"from": "CDKN1B", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "CCNE1", "value": 0.999}, {"from": "CDKN1B", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "CCND1", "value": 0.999}, {"from": "CDKN1B", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "SKP2", "value": 0.999}, {"from": "CDKN1B", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "CDK2", "value": 0.999}, {"from": "CDKN1B", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "CCNA1", "value": 0.999}, {"from": "CDKN1B", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "CCND2", "value": 0.999}, {"from": "CDK2", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "CDKN1C", "value": 0.999}, {"from": "CDK2", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "CCNE2", "value": 0.999}, {"from": "CDK2", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "CCNA1", "value": 0.999}, {"from": "CDK2", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "CCNL2", "value": 0.999}, {"from": "CDK2", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "SKP1", "value": 0.999}, {"from": "CDK2", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "CCND1", "value": 0.999}, {"from": "CDK2", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "SKP2", "value": 0.999}, {"from": "PLK1", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "CCNB1", "value": 0.999}, {"from": "PLK1", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "CDC20", "value": 0.999}, {"from": "PLK1", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "BUB1B", "value": 0.999}, {"from": "PLK1", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "FZR1", "value": 0.999}, {"from": "PLK1", "title": "STRING | ppi\u003cbr\u003escore: 0.998", "to": "ERCC6L", "value": 0.998}, {"from": "PLK1", "title": "STRING | ppi\u003cbr\u003escore: 0.997", "to": "BORA", "value": 0.997}, {"from": "PLK1", "title": "STRING | ppi\u003cbr\u003escore: 0.996", "to": "BUB1", "value": 0.996}, {"from": "PLK1", "title": "STRING | ppi\u003cbr\u003escore: 0.996", "to": "CENPU", "value": 0.996}, {"from": "E2F1", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "CCNA1", "value": 0.999}, {"from": "E2F1", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "TFDP1", "value": 0.999}, {"from": "E2F1", "title": "STRING | ppi\u003cbr\u003escore: 0.997", "to": "TFDP2", "value": 0.997}, {"from": "E2F1", "title": "STRING | ppi\u003cbr\u003escore: 0.997", "to": "CDK2", "value": 0.997}, {"from": "E2F1", "title": "STRING | ppi\u003cbr\u003escore: 0.994", "to": "FOXO3", "value": 0.994}, {"from": "E2F1", "title": "STRING | ppi\u003cbr\u003escore: 0.994", "to": "RBL1", "value": 0.994}, {"from": "GADD45A", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "MAP3K4", "value": 0.999}, {"from": "GADD45A", "title": "STRING | ppi\u003cbr\u003escore: 0.997", "to": "CDK1", "value": 0.997}, {"from": "GADD45A", "title": "STRING | ppi\u003cbr\u003escore: 0.987", "to": "TDG", "value": 0.987}, {"from": "GADD45A", "title": "STRING | ppi\u003cbr\u003escore: 0.987", "to": "PCNA", "value": 0.987}, {"from": "GADD45A", "title": "STRING | ppi\u003cbr\u003escore: 0.985", "to": "GADD45GIP1", "value": 0.985}, {"from": "GADD45A", "title": "STRING | ppi\u003cbr\u003escore: 0.983", "to": "CCNB1", "value": 0.983}, {"from": "GADD45A", "title": "STRING | ppi\u003cbr\u003escore: 0.974", "to": "CDKN1A", "value": 0.974}, {"from": "GADD45A", "title": "STRING | ppi\u003cbr\u003escore: 0.965", "to": "GADD45B", "value": 0.965}, {"from": "GADD45A", "title": "STRING | ppi\u003cbr\u003escore: 0.961", "to": "AURKA", "value": 0.961}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "barnesHut": {
+            "avoidOverlap": 0,
+            "centralGravity": 0.3,
+            "damping": 0.09,
+            "gravitationalConstant": -80000,
+            "springConstant": 0.001,
+            "springLength": 250
+        },
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

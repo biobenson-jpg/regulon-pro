@@ -1,0 +1,163 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 750px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"group": 9999, "id": "EP300", "label": "EP300", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 8}, {"group": 9999, "id": "CREBBP", "label": "CREBBP", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 9}, {"group": 9999, "id": "CREB1", "label": "CREB1", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 7}, {"group": 9999, "id": "JUN", "label": "JUN", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 13}, {"group": 9999, "id": "MAPK8", "label": "MAPK8", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 9}, {"group": 9999, "id": "FOXO4", "label": "FOXO4", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 7}, {"group": 9999, "id": "STAT3", "label": "STAT3", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 9}, {"group": 9999, "id": "SP1", "label": "SP1", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 6}, {"group": 9999, "id": "ESR1", "label": "ESR1", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 7}, {"group": 9999, "id": "ATF3", "label": "ATF3", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 8}, {"group": 9999, "id": "MAPK9", "label": "MAPK9", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 9}, {"group": 9999, "id": "SMAD3", "label": "SMAD3", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 3}, {"group": 9999, "id": "MYB", "label": "MYB", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 1}, {"group": 9999, "id": "IRF3", "label": "IRF3", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 1}, {"group": 9999, "id": "NCOA3", "label": "NCOA3", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 2}, {"group": 9999, "id": "STAT1", "label": "STAT1", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 2}, {"group": 9999, "id": "NCOA1", "label": "NCOA1", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 3}, {"group": 9999, "id": "RELA", "label": "RELA", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 2}, {"group": 9999, "id": "JAK1", "label": "JAK1", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 1}, {"group": 9999, "id": "JAK2", "label": "JAK2", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 1}, {"group": 9999, "id": "PIAS3", "label": "PIAS3", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 1}, {"group": 9999, "id": "SRC", "label": "SRC", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 2}, {"group": 9999, "id": "STAT5B", "label": "STAT5B", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 1}, {"group": 9999, "id": "JAK3", "label": "JAK3", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 1}, {"group": 9999, "id": "TYK2", "label": "TYK2", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 1}, {"group": 9999, "id": "FOS", "label": "FOS", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 3}, {"group": 9999, "id": "FOSB", "label": "FOSB", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 1}, {"group": 9999, "id": "FOSL2", "label": "FOSL2", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 1}, {"group": 9999, "id": "JUND", "label": "JUND", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 4}, {"group": 9999, "id": "FOSL1", "label": "FOSL1", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 1}, {"group": 9999, "id": "JUNB", "label": "JUNB", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 3}, {"group": 9999, "id": "ATXN3", "label": "ATXN3", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 1}, {"group": 9999, "id": "AKT2", "label": "AKT2", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 1}, {"group": 9999, "id": "AKT3", "label": "AKT3", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 1}, {"group": 9999, "id": "SGK1", "label": "SGK1", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 1}, {"group": 9999, "id": "MAP2K4", "label": "MAP2K4", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 2}, {"group": 9999, "id": "MAPK8IP1", "label": "MAPK8IP1", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 2}, {"group": 9999, "id": "DUSP16", "label": "DUSP16", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 2}, {"group": 9999, "id": "MAP2K7", "label": "MAP2K7", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 1}, {"group": 9999, "id": "NFATC3", "label": "NFATC3", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 1}, {"group": 9999, "id": "CRTC2", "label": "CRTC2", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 1}, {"group": 9999, "id": "CRTC1", "label": "CRTC1", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 1}, {"group": 9999, "id": "PRKACA", "label": "PRKACA", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 1}, {"group": 9999, "id": "ESR2", "label": "ESR2", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 1}, {"group": 9999, "id": "ATF4", "label": "ATF4", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 1}, {"group": 9999, "id": "DDIT3", "label": "DDIT3", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 1}, {"group": 9999, "id": "CEBPB", "label": "CEBPB", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 1}, {"group": 9999, "id": "DUSP10", "label": "DUSP10", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 1}, {"group": 9999, "id": "MAPK8IP3", "label": "MAPK8IP3", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 1}, {"group": 9999, "id": "IGF1R", "label": "IGF1R", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 1}, {"group": 9999, "id": "NRIP1", "label": "NRIP1", "shape": "dot", "title": "kind: protein\u003cbr\u003esources: STRING", "value": 1}]);
+                  edges = new vis.DataSet([{"from": "CREBBP", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "MYB", "value": 0.999}, {"from": "CREBBP", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "IRF3", "value": 0.999}, {"from": "CREBBP", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "NCOA3", "value": 0.999}, {"from": "CREBBP", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "STAT1", "value": 0.999}, {"from": "CREBBP", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "NCOA1", "value": 0.999}, {"from": "CREBBP", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "CREB1", "value": 0.999}, {"from": "CREBBP", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "RELA", "value": 0.999}, {"from": "EP300", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "RELA", "value": 0.999}, {"from": "EP300", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "STAT3", "value": 0.999}, {"from": "EP300", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "JUN", "value": 0.999}, {"from": "EP300", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "CREB1", "value": 0.999}, {"from": "EP300", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "SMAD3", "value": 0.999}, {"from": "EP300", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "NCOA1", "value": 0.999}, {"from": "STAT3", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "JAK1", "value": 0.999}, {"from": "STAT3", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "JAK2", "value": 0.999}, {"from": "STAT3", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "STAT1", "value": 0.999}, {"from": "STAT3", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "PIAS3", "value": 0.999}, {"from": "STAT3", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "SRC", "value": 0.999}, {"from": "STAT3", "title": "STRING | ppi\u003cbr\u003escore: 0.998", "to": "STAT5B", "value": 0.998}, {"from": "STAT3", "title": "STRING | ppi\u003cbr\u003escore: 0.998", "to": "JAK3", "value": 0.998}, {"from": "STAT3", "title": "STRING | ppi\u003cbr\u003escore: 0.997", "to": "TYK2", "value": 0.997}, {"from": "JUN", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "MAPK9", "value": 0.999}, {"from": "JUN", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "FOS", "value": 0.999}, {"from": "JUN", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "MAPK8", "value": 0.999}, {"from": "JUN", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "FOSB", "value": 0.999}, {"from": "JUN", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "FOSL2", "value": 0.999}, {"from": "JUN", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "JUND", "value": 0.999}, {"from": "JUN", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "FOSL1", "value": 0.999}, {"from": "JUN", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "JUNB", "value": 0.999}, {"from": "JUN", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "ESR1", "value": 0.999}, {"from": "FOXO4", "title": "STRING | ppi\u003cbr\u003escore: 0.984", "to": "CREBBP", "value": 0.984}, {"from": "FOXO4", "title": "STRING | ppi\u003cbr\u003escore: 0.983", "to": "EP300", "value": 0.983}, {"from": "FOXO4", "title": "STRING | ppi\u003cbr\u003escore: 0.974", "to": "ATXN3", "value": 0.974}, {"from": "FOXO4", "title": "STRING | ppi\u003cbr\u003escore: 0.957", "to": "AKT2", "value": 0.957}, {"from": "FOXO4", "title": "STRING | ppi\u003cbr\u003escore: 0.953", "to": "AKT3", "value": 0.953}, {"from": "FOXO4", "title": "STRING | ppi\u003cbr\u003escore: 0.952", "to": "SGK1", "value": 0.952}, {"from": "FOXO4", "title": "STRING | ppi\u003cbr\u003escore: 0.938", "to": "MAPK8", "value": 0.938}, {"from": "MAPK8", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "MAP2K4", "value": 0.999}, {"from": "MAPK8", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "MAPK9", "value": 0.999}, {"from": "MAPK8", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "MAPK8IP1", "value": 0.999}, {"from": "MAPK8", "title": "STRING | ppi\u003cbr\u003escore: 0.998", "to": "DUSP16", "value": 0.998}, {"from": "MAPK8", "title": "STRING | ppi\u003cbr\u003escore: 0.996", "to": "MAP2K7", "value": 0.996}, {"from": "MAPK8", "title": "STRING | ppi\u003cbr\u003escore: 0.995", "to": "JUND", "value": 0.995}, {"from": "MAPK8", "title": "STRING | ppi\u003cbr\u003escore: 0.995", "to": "NFATC3", "value": 0.995}, {"from": "CREB1", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "CRTC2", "value": 0.999}, {"from": "CREB1", "title": "STRING | ppi\u003cbr\u003escore: 0.998", "to": "FOS", "value": 0.998}, {"from": "CREB1", "title": "STRING | ppi\u003cbr\u003escore: 0.998", "to": "CRTC1", "value": 0.998}, {"from": "CREB1", "title": "STRING | ppi\u003cbr\u003escore: 0.998", "to": "JUN", "value": 0.998}, {"from": "CREB1", "title": "STRING | ppi\u003cbr\u003escore: 0.996", "to": "PRKACA", "value": 0.996}, {"from": "SP1", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "ESR1", "value": 0.999}, {"from": "SP1", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "EP300", "value": 0.999}, {"from": "SP1", "title": "STRING | ppi\u003cbr\u003escore: 0.996", "to": "JUN", "value": 0.996}, {"from": "SP1", "title": "STRING | ppi\u003cbr\u003escore: 0.992", "to": "CREBBP", "value": 0.992}, {"from": "SP1", "title": "STRING | ppi\u003cbr\u003escore: 0.988", "to": "ESR2", "value": 0.988}, {"from": "SP1", "title": "STRING | ppi\u003cbr\u003escore: 0.978", "to": "SMAD3", "value": 0.978}, {"from": "ATF3", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "JUN", "value": 0.999}, {"from": "ATF3", "title": "STRING | ppi\u003cbr\u003escore: 0.994", "to": "FOS", "value": 0.994}, {"from": "ATF3", "title": "STRING | ppi\u003cbr\u003escore: 0.994", "to": "JUND", "value": 0.994}, {"from": "ATF3", "title": "STRING | ppi\u003cbr\u003escore: 0.989", "to": "ATF4", "value": 0.989}, {"from": "ATF3", "title": "STRING | ppi\u003cbr\u003escore: 0.988", "to": "SMAD3", "value": 0.988}, {"from": "ATF3", "title": "STRING | ppi\u003cbr\u003escore: 0.988", "to": "DDIT3", "value": 0.988}, {"from": "ATF3", "title": "STRING | ppi\u003cbr\u003escore: 0.98", "to": "CEBPB", "value": 0.98}, {"from": "ATF3", "title": "STRING | ppi\u003cbr\u003escore: 0.964", "to": "JUNB", "value": 0.964}, {"from": "MAPK9", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "MAP2K4", "value": 0.999}, {"from": "MAPK9", "title": "STRING | ppi\u003cbr\u003escore: 0.993", "to": "MAPK8IP1", "value": 0.993}, {"from": "MAPK9", "title": "STRING | ppi\u003cbr\u003escore: 0.987", "to": "JUND", "value": 0.987}, {"from": "MAPK9", "title": "STRING | ppi\u003cbr\u003escore: 0.985", "to": "DUSP16", "value": 0.985}, {"from": "MAPK9", "title": "STRING | ppi\u003cbr\u003escore: 0.979", "to": "DUSP10", "value": 0.979}, {"from": "MAPK9", "title": "STRING | ppi\u003cbr\u003escore: 0.979", "to": "JUNB", "value": 0.979}, {"from": "MAPK9", "title": "STRING | ppi\u003cbr\u003escore: 0.978", "to": "MAPK8IP3", "value": 0.978}, {"from": "ESR1", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "SRC", "value": 0.999}, {"from": "ESR1", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "NCOA1", "value": 0.999}, {"from": "ESR1", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "IGF1R", "value": 0.999}, {"from": "ESR1", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "NRIP1", "value": 0.999}, {"from": "ESR1", "title": "STRING | ppi\u003cbr\u003escore: 0.999", "to": "NCOA3", "value": 0.999}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "barnesHut": {
+            "avoidOverlap": 0,
+            "centralGravity": 0.3,
+            "damping": 0.09,
+            "gravitationalConstant": -80000,
+            "springConstant": 0.001,
+            "springLength": 250
+        },
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

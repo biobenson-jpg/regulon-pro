@@ -1,0 +1,81 @@
+{
+  "tool": "gprofiler",
+  "organism": "hsapiens",
+  "sources": [
+    "GO:BP",
+    "REAC",
+    "KEGG"
+  ],
+  "terms": [
+    {
+      "source": "KEGG",
+      "term_id": "KEGG:05161",
+      "term_name": "Hepatitis B",
+      "p_value": 1.6660667598141117e-27,
+      "intersection_size": 24
+    },
+    {
+      "source": "GO:BP",
+      "term_id": "GO:1901700",
+      "term_name": "response to oxygen-containing compound",
+      "p_value": 9.273770031284868e-26,
+      "intersection_size": 36
+    },
+    {
+      "source": "GO:BP",
+      "term_id": "GO:1901701",
+      "term_name": "cellular response to oxygen-containing compound",
+      "p_value": 2.2502032173313386e-23,
+      "intersection_size": 31
+    },
+    {
+      "source": "GO:BP",
+      "term_id": "GO:0045944",
+      "term_name": "positive regulation of transcription by RNA polymerase II",
+      "p_value": 1.4132113360645326e-22,
+      "intersection_size": 31
+    },
+    {
+      "source": "GO:BP",
+      "term_id": "GO:0009891",
+      "term_name": "positive regulation of biosynthetic process",
+      "p_value": 1.9302263783788835e-22,
+      "intersection_size": 39
+    },
+    {
+      "source": "GO:BP",
+      "term_id": "GO:0035556",
+      "term_name": "intracellular signal transduction",
+      "p_value": 3.059952724649488e-22,
+      "intersection_size": 40
+    },
+    {
+      "source": "GO:BP",
+      "term_id": "GO:0010604",
+      "term_name": "positive regulation of macromolecule metabolic process",
+      "p_value": 7.327300289819209e-22,
+      "intersection_size": 41
+    },
+    {
+      "source": "GO:BP",
+      "term_id": "GO:0009893",
+      "term_name": "positive regulation of metabolic process",
+      "p_value": 1.109869254524061e-21,
+      "intersection_size": 42
+    },
+    {
+      "source": "GO:BP",
+      "term_id": "GO:0070887",
+      "term_name": "cellular response to chemical stimulus",
+      "p_value": 1.2799990928138495e-21,
+      "intersection_size": 36
+    },
+    {
+      "source": "GO:BP",
+      "term_id": "GO:0045935",
+      "term_name": "positive regulation of nucleobase-containing compound metabolic process",
+      "p_value": 2.2432994837583696e-21,
+      "intersection_size": 35
+    }
+  ]
+}

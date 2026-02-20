@@ -1,0 +1,1303 @@
+{
+  "nodes": [
+    {
+      "id": "CDKN1A",
+      "label": "CDKN1A",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "AURKA",
+      "label": "AURKA",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "CCNG1",
+      "label": "CCNG1",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "FOXO3",
+      "label": "FOXO3",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "CCNA2",
+      "label": "CCNA2",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "GADD45A",
+      "label": "GADD45A",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "CDKN1B",
+      "label": "CDKN1B",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "CDK2",
+      "label": "CDK2",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "E2F1",
+      "label": "E2F1",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "PLK1",
+      "label": "PLK1",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "TPX2",
+      "label": "TPX2",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "TACC3",
+      "label": "TACC3",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "MYCN",
+      "label": "MYCN",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "CDC20",
+      "label": "CDC20",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "INCENP",
+      "label": "INCENP",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "BIRC5",
+      "label": "BIRC5",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "NEDD9",
+      "label": "NEDD9",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "CCNB2",
+      "label": "CCNB2",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "CCNB1",
+      "label": "CCNB1",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "CDK1",
+      "label": "CDK1",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "GAK",
+      "label": "GAK",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "CCNG2",
+      "label": "CCNG2",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "PPP2R5C",
+      "label": "PPP2R5C",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "PPP2R1A",
+      "label": "PPP2R1A",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "CDK5",
+      "label": "CDK5",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "CCNL2",
+      "label": "CCNL2",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "CDK4",
+      "label": "CDK4",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "CDK6",
+      "label": "CDK6",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "CCND3",
+      "label": "CCND3",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "CCNE1",
+      "label": "CCNE1",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "PCNA",
+      "label": "PCNA",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "CCND1",
+      "label": "CCND1",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "CCNA1",
+      "label": "CCNA1",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "CCNE2",
+      "label": "CCNE2",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "SKP2",
+      "label": "SKP2",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "ANAPC4",
+      "label": "ANAPC4",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "CCND2",
+      "label": "CCND2",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "CDKN1C",
+      "label": "CDKN1C",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "SKP1",
+      "label": "SKP1",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "BUB1B",
+      "label": "BUB1B",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "FZR1",
+      "label": "FZR1",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "ERCC6L",
+      "label": "ERCC6L",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "BORA",
+      "label": "BORA",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "BUB1",
+      "label": "BUB1",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "CENPU",
+      "label": "CENPU",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "TFDP1",
+      "label": "TFDP1",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "TFDP2",
+      "label": "TFDP2",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "RBL1",
+      "label": "RBL1",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "MAP3K4",
+      "label": "MAP3K4",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "TDG",
+      "label": "TDG",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "GADD45GIP1",
+      "label": "GADD45GIP1",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "GADD45B",
+      "label": "GADD45B",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "AURKA",
+      "target": "TPX2",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "AURKA",
+      "target": "TACC3",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.998,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "AURKA",
+      "target": "MYCN",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.998,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "AURKA",
+      "target": "PLK1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.997,
+      "support": 2,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "AURKA",
+      "target": "CDC20",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.995,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "AURKA",
+      "target": "INCENP",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.994,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "AURKA",
+      "target": "BIRC5",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.993,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "AURKA",
+      "target": "NEDD9",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.99,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "AURKA",
+      "target": "CCNB2",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.988,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "FOXO3",
+      "target": "CDK2",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 2,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "FOXO3",
+      "target": "CDKN1A",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.995,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CCNG1",
+      "target": "GAK",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.963,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CCNG1",
+      "target": "CCNG2",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.911,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CCNG1",
+      "target": "PPP2R5C",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.849,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CCNG1",
+      "target": "PPP2R1A",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.818,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CCNG1",
+      "target": "CDK5",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.817,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CCNG1",
+      "target": "CCNL2",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.78,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CCNG1",
+      "target": "CDK1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.772,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CCNG1",
+      "target": "CDK2",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.735,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CDKN1A",
+      "target": "CDK6",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CDKN1A",
+      "target": "CDK4",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CDKN1A",
+      "target": "CCND3",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CDKN1A",
+      "target": "CCNE1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CDKN1A",
+      "target": "PCNA",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CDKN1A",
+      "target": "CCND1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CDKN1A",
+      "target": "CCNA1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CDKN1A",
+      "target": "CCNE2",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CDKN1A",
+      "target": "CDK2",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CCNA2",
+      "target": "CDK1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CCNA2",
+      "target": "CDK2",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 2,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CCNA2",
+      "target": "SKP2",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CCNA2",
+      "target": "E2F1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 2,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CCNA2",
+      "target": "CDKN1B",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 2,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CCNA2",
+      "target": "CDC20",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CCNA2",
+      "target": "ANAPC4",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CCNA2",
+      "target": "CDKN1A",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CCNA2",
+      "target": "CDK4",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CCNA2",
+      "target": "CDK6",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CDKN1B",
+      "target": "CDK4",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CDKN1B",
+      "target": "CDK6",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CDKN1B",
+      "target": "CCND3",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CDKN1B",
+      "target": "CCNE1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CDKN1B",
+      "target": "CCND1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CDKN1B",
+      "target": "SKP2",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CDKN1B",
+      "target": "CDK2",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 2,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CDKN1B",
+      "target": "CCNA1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CDKN1B",
+      "target": "CCND2",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CDK2",
+      "target": "CDKN1C",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CDK2",
+      "target": "CCNE2",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CDK2",
+      "target": "CCNA1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CDK2",
+      "target": "CCNL2",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CDK2",
+      "target": "SKP1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CDK2",
+      "target": "CCND1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CDK2",
+      "target": "SKP2",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "PLK1",
+      "target": "CCNB1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "PLK1",
+      "target": "CDC20",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "PLK1",
+      "target": "BUB1B",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "PLK1",
+      "target": "FZR1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "PLK1",
+      "target": "ERCC6L",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.998,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "PLK1",
+      "target": "BORA",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.997,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "PLK1",
+      "target": "BUB1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.996,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "PLK1",
+      "target": "CENPU",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.996,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "E2F1",
+      "target": "CCNA1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "E2F1",
+      "target": "TFDP1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "E2F1",
+      "target": "TFDP2",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.997,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "E2F1",
+      "target": "CDK2",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.997,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "E2F1",
+      "target": "FOXO3",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.994,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "E2F1",
+      "target": "RBL1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.994,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "GADD45A",
+      "target": "MAP3K4",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "GADD45A",
+      "target": "CDK1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.997,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "GADD45A",
+      "target": "TDG",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.987,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "GADD45A",
+      "target": "PCNA",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.987,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "GADD45A",
+      "target": "GADD45GIP1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.985,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "GADD45A",
+      "target": "CCNB1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.983,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "GADD45A",
+      "target": "CDKN1A",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.974,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "GADD45A",
+      "target": "GADD45B",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.965,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "GADD45A",
+      "target": "AURKA",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.961,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    }
+  ],
+  "meta": {
+    "seeds": [
+      "TP53"
+    ],
+    "sources": [
+      "string_ppi",
+      "encori_rbp_by_target"
+    ],
+    "species_taxon": 9606,
+    "params": {
+      "string_required_score": 400,
+      "string_limit": 100,
+      "string_depth": 2,
+      "string_depth2_limit": 10,
+      "assembly": "hg38",
+      "gene_type": "mRNA",
+      "cell_type": "all",
+      "clip_exp_num": 5,
+      "pancancer_num": 0,
+      "inter_num": 1,
+      "exp_num": 1,
+      "max_nodes": 2000
+    },
+    "counts": {
+      "nodes": 52,
+      "edges": 77
+    },
+    "generated_at": "2026-02-16T22:47:44",
+    "module": {
+      "cid": 0,
+      "min_size": 3,
+      "size": 52
+    }
+  }
+}

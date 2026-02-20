@@ -1,0 +1,70 @@
+﻿{
+    "cid":  2,
+    "module_size":  51,
+    "label":  "DNA damage / repair",
+    "score":  59,
+    "evidence":  {
+                     "hub_hits":  [
+                                      "ATM",
+                                      "ATR",
+                                      "ATRIP",
+                                      "BRCA1",
+                                      "BRCA2",
+                                      "CHEK1",
+                                      "CHEK2",
+                                      "FANCD2",
+                                      "MRE11",
+                                      "RAD51",
+                                      "RAD52",
+                                      "TP53BP1",
+                                      "XRCC3"
+                                  ],
+                     "gene_hits":  [
+                                       "ATM",
+                                       "ATR",
+                                       "ATRIP",
+                                       "ATRX",
+                                       "BRCA1",
+                                       "BRCA2",
+                                       "CHEK1",
+                                       "CHEK2",
+                                       "FANCD2",
+                                       "MRE11",
+                                       "MSH2",
+                                       "MSH6",
+                                       "NBN",
+                                       "RAD50",
+                                       "RAD51",
+                                       "RAD51C",
+                                       "RAD52",
+                                       "RAD9A",
+                                       "TP53BP1",
+                                       "XRCC3"
+                                   ],
+                     "rule_patterns":  [
+                                           "^(BRCA|RAD|ATM|ATR|CHEK|TP53BP|PARP|FANCD|FANCI|XRCC|MRE11|NBN|MSH|MLH|RRM2B)"
+                                       ],
+                     "top_hubs":  [
+                                      "BRCA1",
+                                      "BRCA2",
+                                      "ATM",
+                                      "RAD51",
+                                      "BARD1",
+                                      "RPA1",
+                                      "CHEK2",
+                                      "ATR",
+                                      "TP53BP1",
+                                      "CHEK1",
+                                      "MDC1",
+                                      "MRE11",
+                                      "PALB2",
+                                      "FANCD2",
+                                      "BLM",
+                                      "RAD52",
+                                      "ATRIP",
+                                      "TOPBP1",
+                                      "CDC7",
+                                      "XRCC3"
+                                  ]
+                 }
+}

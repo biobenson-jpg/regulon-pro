@@ -1,0 +1,1273 @@
+{
+  "nodes": [
+    {
+      "id": "EP300",
+      "label": "EP300",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "CREBBP",
+      "label": "CREBBP",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "CREB1",
+      "label": "CREB1",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "JUN",
+      "label": "JUN",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "MAPK8",
+      "label": "MAPK8",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "FOXO4",
+      "label": "FOXO4",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "STAT3",
+      "label": "STAT3",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "SP1",
+      "label": "SP1",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "ESR1",
+      "label": "ESR1",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "ATF3",
+      "label": "ATF3",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "MAPK9",
+      "label": "MAPK9",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "SMAD3",
+      "label": "SMAD3",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "MYB",
+      "label": "MYB",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "IRF3",
+      "label": "IRF3",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "NCOA3",
+      "label": "NCOA3",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "STAT1",
+      "label": "STAT1",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "NCOA1",
+      "label": "NCOA1",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "RELA",
+      "label": "RELA",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "JAK1",
+      "label": "JAK1",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "JAK2",
+      "label": "JAK2",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "PIAS3",
+      "label": "PIAS3",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "SRC",
+      "label": "SRC",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "STAT5B",
+      "label": "STAT5B",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "JAK3",
+      "label": "JAK3",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "TYK2",
+      "label": "TYK2",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "FOS",
+      "label": "FOS",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "FOSB",
+      "label": "FOSB",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "FOSL2",
+      "label": "FOSL2",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "JUND",
+      "label": "JUND",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "FOSL1",
+      "label": "FOSL1",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "JUNB",
+      "label": "JUNB",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "ATXN3",
+      "label": "ATXN3",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "AKT2",
+      "label": "AKT2",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "AKT3",
+      "label": "AKT3",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "SGK1",
+      "label": "SGK1",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "MAP2K4",
+      "label": "MAP2K4",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "MAPK8IP1",
+      "label": "MAPK8IP1",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "DUSP16",
+      "label": "DUSP16",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "MAP2K7",
+      "label": "MAP2K7",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "NFATC3",
+      "label": "NFATC3",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "CRTC2",
+      "label": "CRTC2",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "CRTC1",
+      "label": "CRTC1",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "PRKACA",
+      "label": "PRKACA",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "ESR2",
+      "label": "ESR2",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "ATF4",
+      "label": "ATF4",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "DDIT3",
+      "label": "DDIT3",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "CEBPB",
+      "label": "CEBPB",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "DUSP10",
+      "label": "DUSP10",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "MAPK8IP3",
+      "label": "MAPK8IP3",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "IGF1R",
+      "label": "IGF1R",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "NRIP1",
+      "label": "NRIP1",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "CREBBP",
+      "target": "MYB",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CREBBP",
+      "target": "IRF3",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CREBBP",
+      "target": "NCOA3",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CREBBP",
+      "target": "STAT1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CREBBP",
+      "target": "NCOA1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CREBBP",
+      "target": "CREB1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 2,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CREBBP",
+      "target": "RELA",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "EP300",
+      "target": "RELA",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "EP300",
+      "target": "STAT3",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 2,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "EP300",
+      "target": "JUN",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 2,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "EP300",
+      "target": "CREB1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 2,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "EP300",
+      "target": "SMAD3",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "EP300",
+      "target": "NCOA1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "STAT3",
+      "target": "JAK1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "STAT3",
+      "target": "JAK2",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "STAT3",
+      "target": "STAT1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "STAT3",
+      "target": "PIAS3",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "STAT3",
+      "target": "SRC",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "STAT3",
+      "target": "STAT5B",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.998,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "STAT3",
+      "target": "JAK3",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.998,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "STAT3",
+      "target": "TYK2",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.997,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "JUN",
+      "target": "MAPK9",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 2,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "JUN",
+      "target": "FOS",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "JUN",
+      "target": "MAPK8",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 2,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "JUN",
+      "target": "FOSB",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "JUN",
+      "target": "FOSL2",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "JUN",
+      "target": "JUND",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "JUN",
+      "target": "FOSL1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "JUN",
+      "target": "JUNB",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "JUN",
+      "target": "ESR1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 2,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "FOXO4",
+      "target": "CREBBP",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.984,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "FOXO4",
+      "target": "EP300",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.983,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "FOXO4",
+      "target": "ATXN3",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.974,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "FOXO4",
+      "target": "AKT2",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.957,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "FOXO4",
+      "target": "AKT3",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.953,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "FOXO4",
+      "target": "SGK1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.952,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "FOXO4",
+      "target": "MAPK8",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.938,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "MAPK8",
+      "target": "MAP2K4",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "MAPK8",
+      "target": "MAPK9",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 2,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "MAPK8",
+      "target": "MAPK8IP1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "MAPK8",
+      "target": "DUSP16",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.998,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "MAPK8",
+      "target": "MAP2K7",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.996,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "MAPK8",
+      "target": "JUND",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.995,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "MAPK8",
+      "target": "NFATC3",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.995,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CREB1",
+      "target": "CRTC2",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CREB1",
+      "target": "FOS",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.998,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CREB1",
+      "target": "CRTC1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.998,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CREB1",
+      "target": "JUN",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.998,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CREB1",
+      "target": "PRKACA",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.996,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "SP1",
+      "target": "ESR1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 2,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "SP1",
+      "target": "EP300",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "SP1",
+      "target": "JUN",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.996,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "SP1",
+      "target": "CREBBP",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.992,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "SP1",
+      "target": "ESR2",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.988,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "SP1",
+      "target": "SMAD3",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.978,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "ATF3",
+      "target": "JUN",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "ATF3",
+      "target": "FOS",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.994,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "ATF3",
+      "target": "JUND",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.994,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "ATF3",
+      "target": "ATF4",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.989,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "ATF3",
+      "target": "SMAD3",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.988,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "ATF3",
+      "target": "DDIT3",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.988,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "ATF3",
+      "target": "CEBPB",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.98,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "ATF3",
+      "target": "JUNB",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.964,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "MAPK9",
+      "target": "MAP2K4",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "MAPK9",
+      "target": "MAPK8IP1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.993,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "MAPK9",
+      "target": "JUND",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.987,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "MAPK9",
+      "target": "DUSP16",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.985,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "MAPK9",
+      "target": "DUSP10",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.979,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "MAPK9",
+      "target": "JUNB",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.979,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "MAPK9",
+      "target": "MAPK8IP3",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.978,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "ESR1",
+      "target": "SRC",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "ESR1",
+      "target": "NCOA1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "ESR1",
+      "target": "IGF1R",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "ESR1",
+      "target": "NRIP1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "ESR1",
+      "target": "NCOA3",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    }
+  ],
+  "meta": {
+    "seeds": [
+      "TP53"
+    ],
+    "sources": [
+      "string_ppi",
+      "encori_rbp_by_target"
+    ],
+    "species_taxon": 9606,
+    "params": {
+      "string_required_score": 400,
+      "string_limit": 100,
+      "string_depth": 2,
+      "string_depth2_limit": 10,
+      "assembly": "hg38",
+      "gene_type": "mRNA",
+      "cell_type": "all",
+      "clip_exp_num": 5,
+      "pancancer_num": 0,
+      "inter_num": 1,
+      "exp_num": 1,
+      "max_nodes": 2000
+    },
+    "counts": {
+      "nodes": 51,
+      "edges": 75
+    },
+    "generated_at": "2026-02-16T22:17:40",
+    "module": {
+      "cid": 1,
+      "min_size": 3,
+      "size": 51
+    }
+  }
+}

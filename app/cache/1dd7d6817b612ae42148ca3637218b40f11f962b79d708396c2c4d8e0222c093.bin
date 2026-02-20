@@ -1,0 +1,5 @@
+#please cite:
+#1.Zhou KR, Huang JH, Liu S, Zheng WJ, Liu SR, et al. An Encyclopedic Regulatory and Functional Atlas of RNA Interactomes. (Manuscript submitted)
+#2.Li JH, et al.starBase v2.0: decoding miRNA-ceRNA, miRNA-ncRNA and protein-RNA interaction networks from large-scale CLIP-Seq data , Nucleic Acids Res. 2014 Jan;42:D92-7.
+geneID	geneName	geneType	pairGeneID	pairGeneName	pairGeneType	interactionNum	totalExpNum	totalSeqTypeNum	totalReadsNum	interactionLocus	alignment	expNum	seqTypeNum	readsNum	FreeEnergy	AlignScore(Smith-Waterman)	CellLine/Tissue
+The "RNA" parameter haven't been set correctly! Or the input of "RNA" parameter is not available!

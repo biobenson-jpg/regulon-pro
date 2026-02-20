@@ -1,0 +1,1578 @@
+﻿{
+    "nodes":  [
+                  {
+                      "id":  "TP53",
+                      "label":  "TP53",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "STRING",
+                                      "ENCORI"
+                                  ]
+                  },
+                  {
+                      "id":  "SFN",
+                      "label":  "SFN",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "STRING"
+                                  ]
+                  },
+                  {
+                      "id":  "EP300",
+                      "label":  "EP300",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "STRING"
+                                  ]
+                  },
+                  {
+                      "id":  "HIF1A",
+                      "label":  "HIF1A",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "STRING"
+                                  ]
+                  },
+                  {
+                      "id":  "HDAC1",
+                      "label":  "HDAC1",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "STRING"
+                                  ]
+                  },
+                  {
+                      "id":  "HSP90AA1",
+                      "label":  "HSP90AA1",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "STRING"
+                                  ]
+                  },
+                  {
+                      "id":  "ATM",
+                      "label":  "ATM",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "STRING"
+                                  ]
+                  },
+                  {
+                      "id":  "MDM4",
+                      "label":  "MDM4",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "STRING"
+                                  ]
+                  },
+                  {
+                      "id":  "CHEK2",
+                      "label":  "CHEK2",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "STRING"
+                                  ]
+                  },
+                  {
+                      "id":  "BCL2",
+                      "label":  "BCL2",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "STRING"
+                                  ]
+                  },
+                  {
+                      "id":  "BCL2L1",
+                      "label":  "BCL2L1",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "STRING"
+                                  ]
+                  },
+                  {
+                      "id":  "PPP1R13L",
+                      "label":  "PPP1R13L",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "STRING"
+                                  ]
+                  },
+                  {
+                      "id":  "DAXX",
+                      "label":  "DAXX",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "STRING"
+                                  ]
+                  },
+                  {
+                      "id":  "SIRT1",
+                      "label":  "SIRT1",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "STRING"
+                                  ]
+                  },
+                  {
+                      "id":  "BRCA1",
+                      "label":  "BRCA1",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "STRING"
+                                  ]
+                  },
+                  {
+                      "id":  "CDKN1A",
+                      "label":  "CDKN1A",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "STRING"
+                                  ]
+                  },
+                  {
+                      "id":  "TP53BP2",
+                      "label":  "TP53BP2",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "STRING"
+                                  ]
+                  },
+                  {
+                      "id":  "UBE3A",
+                      "label":  "UBE3A",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "STRING"
+                                  ]
+                  },
+                  {
+                      "id":  "USP7",
+                      "label":  "USP7",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "STRING"
+                                  ]
+                  },
+                  {
+                      "id":  "CREBBP",
+                      "label":  "CREBBP",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "STRING"
+                                  ]
+                  },
+                  {
+                      "id":  "MDM2",
+                      "label":  "MDM2",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "STRING"
+                                  ]
+                  },
+                  {
+                      "id":  "RPA1",
+                      "label":  "RPA1",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "STRING"
+                                  ]
+                  },
+                  {
+                      "id":  "CDKN2A",
+                      "label":  "CDKN2A",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "STRING"
+                                  ]
+                  },
+                  {
+                      "id":  "TP53BP1",
+                      "label":  "TP53BP1",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "STRING"
+                                  ]
+                  },
+                  {
+                      "id":  "PTEN",
+                      "label":  "PTEN",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "STRING"
+                                  ]
+                  },
+                  {
+                      "id":  "HIPK2",
+                      "label":  "HIPK2",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "STRING"
+                                  ]
+                  },
+                  {
+                      "id":  "RAD51",
+                      "label":  "RAD51",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "STRING"
+                                  ]
+                  },
+                  {
+                      "id":  "RCHY1",
+                      "label":  "RCHY1",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "STRING"
+                                  ]
+                  },
+                  {
+                      "id":  "CREB1",
+                      "label":  "CREB1",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "STRING"
+                                  ]
+                  },
+                  {
+                      "id":  "HTT",
+                      "label":  "HTT",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "STRING"
+                                  ]
+                  },
+                  {
+                      "id":  "NDN",
+                      "label":  "NDN",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "STRING"
+                                  ]
+                  },
+                  {
+                      "id":  "AURKA",
+                      "label":  "AURKA",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "STRING"
+                                  ]
+                  },
+                  {
+                      "id":  "MAPK1",
+                      "label":  "MAPK1",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "STRING"
+                                  ]
+                  },
+                  {
+                      "id":  "CCNG1",
+                      "label":  "CCNG1",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "STRING"
+                                  ]
+                  },
+                  {
+                      "id":  "FOXO3",
+                      "label":  "FOXO3",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "STRING"
+                                  ]
+                  },
+                  {
+                      "id":  "HSPA9",
+                      "label":  "HSPA9",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "STRING"
+                                  ]
+                  },
+                  {
+                      "id":  "DNMT1",
+                      "label":  "DNMT1",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "STRING"
+                                  ]
+                  },
+                  {
+                      "id":  "JUN",
+                      "label":  "JUN",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "STRING"
+                                  ]
+                  },
+                  {
+                      "id":  "HSPA4",
+                      "label":  "HSPA4",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "STRING"
+                                  ]
+                  },
+                  {
+                      "id":  "DDX5",
+                      "label":  "DDX5",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "STRING"
+                                  ]
+                  },
+                  {
+                      "id":  "CHEK1",
+                      "label":  "CHEK1",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "STRING"
+                                  ]
+                  },
+                  {
+                      "id":  "PRKDC",
+                      "label":  "PRKDC",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "STRING"
+                                  ]
+                  },
+                  {
+                      "id":  "MYC",
+                      "label":  "MYC",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "STRING"
+                                  ]
+                  },
+                  {
+                      "id":  "NPM1",
+                      "label":  "NPM1",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "STRING"
+                                  ]
+                  },
+                  {
+                      "id":  "MAPK8",
+                      "label":  "MAPK8",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "STRING"
+                                  ]
+                  },
+                  {
+                      "id":  "TBP",
+                      "label":  "TBP",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "STRING"
+                                  ]
+                  },
+                  {
+                      "id":  "CCNA2",
+                      "label":  "CCNA2",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "STRING"
+                                  ]
+                  },
+                  {
+                      "id":  "HMGB1",
+                      "label":  "HMGB1",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "STRING"
+                                  ]
+                  },
+                  {
+                      "id":  "BAK1",
+                      "label":  "BAK1",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "STRING"
+                                  ]
+                  },
+                  {
+                      "id":  "KAT5",
+                      "label":  "KAT5",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "STRING"
+                                  ]
+                  },
+                  {
+                      "id":  "S100A4",
+                      "label":  "S100A4",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "STRING"
+                                  ]
+                  },
+                  {
+                      "id":  "RBP",
+                      "label":  "RBP",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "ENCORI"
+                                  ]
+                  },
+                  {
+                      "id":  "geneName",
+                      "label":  "geneName",
+                      "kind":  "rna",
+                      "sources":  [
+                                      "ENCORI"
+                                  ]
+                  },
+                  {
+                      "id":  "ALYREF",
+                      "label":  "ALYREF",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "ENCORI"
+                                  ]
+                  },
+                  {
+                      "id":  "CPSF1",
+                      "label":  "CPSF1",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "ENCORI"
+                                  ]
+                  },
+                  {
+                      "id":  "CSTF2T",
+                      "label":  "CSTF2T",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "ENCORI"
+                                  ]
+                  },
+                  {
+                      "id":  "DDX3X",
+                      "label":  "DDX3X",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "ENCORI"
+                                  ]
+                  },
+                  {
+                      "id":  "DDX54",
+                      "label":  "DDX54",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "ENCORI"
+                                  ]
+                  },
+                  {
+                      "id":  "ELAVL1",
+                      "label":  "ELAVL1",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "ENCORI"
+                                  ]
+                  },
+                  {
+                      "id":  "FUS",
+                      "label":  "FUS",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "ENCORI"
+                                  ]
+                  },
+                  {
+                      "id":  "G3BP1",
+                      "label":  "G3BP1",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "ENCORI"
+                                  ]
+                  },
+                  {
+                      "id":  "HNRNPC",
+                      "label":  "HNRNPC",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "ENCORI"
+                                  ]
+                  },
+                  {
+                      "id":  "IGF2BP1",
+                      "label":  "IGF2BP1",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "ENCORI"
+                                  ]
+                  },
+                  {
+                      "id":  "IGF2BP2",
+                      "label":  "IGF2BP2",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "ENCORI"
+                                  ]
+                  },
+                  {
+                      "id":  "LIN28B",
+                      "label":  "LIN28B",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "ENCORI"
+                                  ]
+                  },
+                  {
+                      "id":  "PCBP2",
+                      "label":  "PCBP2",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "ENCORI"
+                                  ]
+                  },
+                  {
+                      "id":  "PTBP1",
+                      "label":  "PTBP1",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "ENCORI"
+                                  ]
+                  },
+                  {
+                      "id":  "RBFOX2",
+                      "label":  "RBFOX2",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "ENCORI"
+                                  ]
+                  },
+                  {
+                      "id":  "RBMX",
+                      "label":  "RBMX",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "ENCORI"
+                                  ]
+                  },
+                  {
+                      "id":  "RNPS1",
+                      "label":  "RNPS1",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "ENCORI"
+                                  ]
+                  },
+                  {
+                      "id":  "SCAF4",
+                      "label":  "SCAF4",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "ENCORI"
+                                  ]
+                  },
+                  {
+                      "id":  "SCAF8",
+                      "label":  "SCAF8",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "ENCORI"
+                                  ]
+                  },
+                  {
+                      "id":  "TARDBP",
+                      "label":  "TARDBP",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "ENCORI"
+                                  ]
+                  },
+                  {
+                      "id":  "U2AF1",
+                      "label":  "U2AF1",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "ENCORI"
+                                  ]
+                  },
+                  {
+                      "id":  "U2AF2",
+                      "label":  "U2AF2",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "ENCORI"
+                                  ]
+                  },
+                  {
+                      "id":  "YBX1",
+                      "label":  "YBX1",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "ENCORI"
+                                  ]
+                  },
+                  {
+                      "id":  "YTHDC1",
+                      "label":  "YTHDC1",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "ENCORI"
+                                  ]
+                  },
+                  {
+                      "id":  "YTHDF1",
+                      "label":  "YTHDF1",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "ENCORI"
+                                  ]
+                  },
+                  {
+                      "id":  "YTHDF2",
+                      "label":  "YTHDF2",
+                      "kind":  "protein",
+                      "sources":  [
+                                      "ENCORI"
+                                  ]
+                  }
+              ],
+    "edges":  [
+                  {
+                      "source":  "TP53",
+                      "target":  "SFN",
+                      "kind":  "ppi",
+                      "source_db":  "STRING",
+                      "score":  0.999,
+                      "support":  1,
+                      "meta":  {
+                                   "stringId_A":  "9606.ENSP00000269305",
+                                   "stringId_B":  "9606.ENSP00000340989"
+                               }
+                  },
+                  {
+                      "source":  "TP53",
+                      "target":  "EP300",
+                      "kind":  "ppi",
+                      "source_db":  "STRING",
+                      "score":  0.999,
+                      "support":  1,
+                      "meta":  {
+                                   "stringId_A":  "9606.ENSP00000269305",
+                                   "stringId_B":  "9606.ENSP00000263253"
+                               }
+                  },
+                  {
+                      "source":  "TP53",
+                      "target":  "HIF1A",
+                      "kind":  "ppi",
+                      "source_db":  "STRING",
+                      "score":  0.999,
+                      "support":  1,
+                      "meta":  {
+                                   "stringId_A":  "9606.ENSP00000269305",
+                                   "stringId_B":  "9606.ENSP00000437955"
+                               }
+                  },
+                  {
+                      "source":  "TP53",
+                      "target":  "HDAC1",
+                      "kind":  "ppi",
+                      "source_db":  "STRING",
+                      "score":  0.999,
+                      "support":  1,
+                      "meta":  {
+                                   "stringId_A":  "9606.ENSP00000269305",
+                                   "stringId_B":  "9606.ENSP00000362649"
+                               }
+                  },
+                  {
+                      "source":  "TP53",
+                      "target":  "HSP90AA1",
+                      "kind":  "ppi",
+                      "source_db":  "STRING",
+                      "score":  0.999,
+                      "support":  1,
+                      "meta":  {
+                                   "stringId_A":  "9606.ENSP00000269305",
+                                   "stringId_B":  "9606.ENSP00000335153"
+                               }
+                  },
+                  {
+                      "source":  "TP53",
+                      "target":  "ATM",
+                      "kind":  "ppi",
+                      "source_db":  "STRING",
+                      "score":  0.999,
+                      "support":  1,
+                      "meta":  {
+                                   "stringId_A":  "9606.ENSP00000269305",
+                                   "stringId_B":  "9606.ENSP00000278616"
+                               }
+                  },
+                  {
+                      "source":  "TP53",
+                      "target":  "MDM4",
+                      "kind":  "ppi",
+                      "source_db":  "STRING",
+                      "score":  0.999,
+                      "support":  1,
+                      "meta":  {
+                                   "stringId_A":  "9606.ENSP00000269305",
+                                   "stringId_B":  "9606.ENSP00000356150"
+                               }
+                  },
+                  {
+                      "source":  "TP53",
+                      "target":  "CHEK2",
+                      "kind":  "ppi",
+                      "source_db":  "STRING",
+                      "score":  0.999,
+                      "support":  1,
+                      "meta":  {
+                                   "stringId_A":  "9606.ENSP00000269305",
+                                   "stringId_B":  "9606.ENSP00000372023"
+                               }
+                  },
+                  {
+                      "source":  "TP53",
+                      "target":  "BCL2",
+                      "kind":  "ppi",
+                      "source_db":  "STRING",
+                      "score":  0.999,
+                      "support":  1,
+                      "meta":  {
+                                   "stringId_A":  "9606.ENSP00000269305",
+                                   "stringId_B":  "9606.ENSP00000381185"
+                               }
+                  },
+                  {
+                      "source":  "TP53",
+                      "target":  "BCL2L1",
+                      "kind":  "ppi",
+                      "source_db":  "STRING",
+                      "score":  0.999,
+                      "support":  1,
+                      "meta":  {
+                                   "stringId_A":  "9606.ENSP00000269305",
+                                   "stringId_B":  "9606.ENSP00000365230"
+                               }
+                  },
+                  {
+                      "source":  "TP53",
+                      "target":  "PPP1R13L",
+                      "kind":  "ppi",
+                      "source_db":  "STRING",
+                      "score":  0.999,
+                      "support":  1,
+                      "meta":  {
+                                   "stringId_A":  "9606.ENSP00000269305",
+                                   "stringId_B":  "9606.ENSP00000354218"
+                               }
+                  },
+                  {
+                      "source":  "TP53",
+                      "target":  "DAXX",
+                      "kind":  "ppi",
+                      "source_db":  "STRING",
+                      "score":  0.999,
+                      "support":  1,
+                      "meta":  {
+                                   "stringId_A":  "9606.ENSP00000269305",
+                                   "stringId_B":  "9606.ENSP00000266000"
+                               }
+                  },
+                  {
+                      "source":  "TP53",
+                      "target":  "SIRT1",
+                      "kind":  "ppi",
+                      "source_db":  "STRING",
+                      "score":  0.999,
+                      "support":  1,
+                      "meta":  {
+                                   "stringId_A":  "9606.ENSP00000269305",
+                                   "stringId_B":  "9606.ENSP00000212015"
+                               }
+                  },
+                  {
+                      "source":  "TP53",
+                      "target":  "BRCA1",
+                      "kind":  "ppi",
+                      "source_db":  "STRING",
+                      "score":  0.999,
+                      "support":  1,
+                      "meta":  {
+                                   "stringId_A":  "9606.ENSP00000269305",
+                                   "stringId_B":  "9606.ENSP00000418960"
+                               }
+                  },
+                  {
+                      "source":  "TP53",
+                      "target":  "CDKN1A",
+                      "kind":  "ppi",
+                      "source_db":  "STRING",
+                      "score":  0.999,
+                      "support":  1,
+                      "meta":  {
+                                   "stringId_A":  "9606.ENSP00000269305",
+                                   "stringId_B":  "9606.ENSP00000384849"
+                               }
+                  },
+                  {
+                      "source":  "TP53",
+                      "target":  "TP53BP2",
+                      "kind":  "ppi",
+                      "source_db":  "STRING",
+                      "score":  0.999,
+                      "support":  1,
+                      "meta":  {
+                                   "stringId_A":  "9606.ENSP00000269305",
+                                   "stringId_B":  "9606.ENSP00000341957"
+                               }
+                  },
+                  {
+                      "source":  "TP53",
+                      "target":  "UBE3A",
+                      "kind":  "ppi",
+                      "source_db":  "STRING",
+                      "score":  0.999,
+                      "support":  1,
+                      "meta":  {
+                                   "stringId_A":  "9606.ENSP00000269305",
+                                   "stringId_B":  "9606.ENSP00000497594"
+                               }
+                  },
+                  {
+                      "source":  "TP53",
+                      "target":  "USP7",
+                      "kind":  "ppi",
+                      "source_db":  "STRING",
+                      "score":  0.999,
+                      "support":  1,
+                      "meta":  {
+                                   "stringId_A":  "9606.ENSP00000269305",
+                                   "stringId_B":  "9606.ENSP00000343535"
+                               }
+                  },
+                  {
+                      "source":  "TP53",
+                      "target":  "CREBBP",
+                      "kind":  "ppi",
+                      "source_db":  "STRING",
+                      "score":  0.999,
+                      "support":  1,
+                      "meta":  {
+                                   "stringId_A":  "9606.ENSP00000269305",
+                                   "stringId_B":  "9606.ENSP00000262367"
+                               }
+                  },
+                  {
+                      "source":  "TP53",
+                      "target":  "MDM2",
+                      "kind":  "ppi",
+                      "source_db":  "STRING",
+                      "score":  0.999,
+                      "support":  1,
+                      "meta":  {
+                                   "stringId_A":  "9606.ENSP00000269305",
+                                   "stringId_B":  "9606.ENSP00000258149"
+                               }
+                  },
+                  {
+                      "source":  "TP53",
+                      "target":  "RPA1",
+                      "kind":  "ppi",
+                      "source_db":  "STRING",
+                      "score":  0.999,
+                      "support":  1,
+                      "meta":  {
+                                   "stringId_A":  "9606.ENSP00000269305",
+                                   "stringId_B":  "9606.ENSP00000254719"
+                               }
+                  },
+                  {
+                      "source":  "TP53",
+                      "target":  "CDKN2A",
+                      "kind":  "ppi",
+                      "source_db":  "STRING",
+                      "score":  0.999,
+                      "support":  1,
+                      "meta":  {
+                                   "stringId_A":  "9606.ENSP00000269305",
+                                   "stringId_B":  "9606.ENSP00000418915"
+                               }
+                  },
+                  {
+                      "source":  "TP53",
+                      "target":  "TP53BP1",
+                      "kind":  "ppi",
+                      "source_db":  "STRING",
+                      "score":  0.999,
+                      "support":  1,
+                      "meta":  {
+                                   "stringId_A":  "9606.ENSP00000269305",
+                                   "stringId_B":  "9606.ENSP00000371475"
+                               }
+                  },
+                  {
+                      "source":  "TP53",
+                      "target":  "PTEN",
+                      "kind":  "ppi",
+                      "source_db":  "STRING",
+                      "score":  0.999,
+                      "support":  1,
+                      "meta":  {
+                                   "stringId_A":  "9606.ENSP00000269305",
+                                   "stringId_B":  "9606.ENSP00000361021"
+                               }
+                  },
+                  {
+                      "source":  "TP53",
+                      "target":  "HIPK2",
+                      "kind":  "ppi",
+                      "source_db":  "STRING",
+                      "score":  0.999,
+                      "support":  1,
+                      "meta":  {
+                                   "stringId_A":  "9606.ENSP00000269305",
+                                   "stringId_B":  "9606.ENSP00000385571"
+                               }
+                  },
+                  {
+                      "source":  "TP53",
+                      "target":  "RAD51",
+                      "kind":  "ppi",
+                      "source_db":  "STRING",
+                      "score":  0.999,
+                      "support":  1,
+                      "meta":  {
+                                   "stringId_A":  "9606.ENSP00000269305",
+                                   "stringId_B":  "9606.ENSP00000493712"
+                               }
+                  },
+                  {
+                      "source":  "TP53",
+                      "target":  "RCHY1",
+                      "kind":  "ppi",
+                      "source_db":  "STRING",
+                      "score":  0.998,
+                      "support":  1,
+                      "meta":  {
+                                   "stringId_A":  "9606.ENSP00000269305",
+                                   "stringId_B":  "9606.ENSP00000321239"
+                               }
+                  },
+                  {
+                      "source":  "TP53",
+                      "target":  "CREB1",
+                      "kind":  "ppi",
+                      "source_db":  "STRING",
+                      "score":  0.998,
+                      "support":  1,
+                      "meta":  {
+                                   "stringId_A":  "9606.ENSP00000269305",
+                                   "stringId_B":  "9606.ENSP00000387699"
+                               }
+                  },
+                  {
+                      "source":  "TP53",
+                      "target":  "HTT",
+                      "kind":  "ppi",
+                      "source_db":  "STRING",
+                      "score":  0.998,
+                      "support":  1,
+                      "meta":  {
+                                   "stringId_A":  "9606.ENSP00000269305",
+                                   "stringId_B":  "9606.ENSP00000347184"
+                               }
+                  },
+                  {
+                      "source":  "TP53",
+                      "target":  "NDN",
+                      "kind":  "ppi",
+                      "source_db":  "STRING",
+                      "score":  0.998,
+                      "support":  1,
+                      "meta":  {
+                                   "stringId_A":  "9606.ENSP00000269305",
+                                   "stringId_B":  "9606.ENSP00000497916"
+                               }
+                  },
+                  {
+                      "source":  "TP53",
+                      "target":  "AURKA",
+                      "kind":  "ppi",
+                      "source_db":  "STRING",
+                      "score":  0.998,
+                      "support":  1,
+                      "meta":  {
+                                   "stringId_A":  "9606.ENSP00000269305",
+                                   "stringId_B":  "9606.ENSP00000216911"
+                               }
+                  },
+                  {
+                      "source":  "TP53",
+                      "target":  "MAPK1",
+                      "kind":  "ppi",
+                      "source_db":  "STRING",
+                      "score":  0.998,
+                      "support":  1,
+                      "meta":  {
+                                   "stringId_A":  "9606.ENSP00000269305",
+                                   "stringId_B":  "9606.ENSP00000215832"
+                               }
+                  },
+                  {
+                      "source":  "TP53",
+                      "target":  "CCNG1",
+                      "kind":  "ppi",
+                      "source_db":  "STRING",
+                      "score":  0.998,
+                      "support":  1,
+                      "meta":  {
+                                   "stringId_A":  "9606.ENSP00000269305",
+                                   "stringId_B":  "9606.ENSP00000344635"
+                               }
+                  },
+                  {
+                      "source":  "TP53",
+                      "target":  "FOXO3",
+                      "kind":  "ppi",
+                      "source_db":  "STRING",
+                      "score":  0.998,
+                      "support":  1,
+                      "meta":  {
+                                   "stringId_A":  "9606.ENSP00000269305",
+                                   "stringId_B":  "9606.ENSP00000339527"
+                               }
+                  },
+                  {
+                      "source":  "TP53",
+                      "target":  "HSPA9",
+                      "kind":  "ppi",
+                      "source_db":  "STRING",
+                      "score":  0.998,
+                      "support":  1,
+                      "meta":  {
+                                   "stringId_A":  "9606.ENSP00000269305",
+                                   "stringId_B":  "9606.ENSP00000297185"
+                               }
+                  },
+                  {
+                      "source":  "TP53",
+                      "target":  "DNMT1",
+                      "kind":  "ppi",
+                      "source_db":  "STRING",
+                      "score":  0.997,
+                      "support":  1,
+                      "meta":  {
+                                   "stringId_A":  "9606.ENSP00000269305",
+                                   "stringId_B":  "9606.ENSP00000352516"
+                               }
+                  },
+                  {
+                      "source":  "TP53",
+                      "target":  "JUN",
+                      "kind":  "ppi",
+                      "source_db":  "STRING",
+                      "score":  0.997,
+                      "support":  1,
+                      "meta":  {
+                                   "stringId_A":  "9606.ENSP00000269305",
+                                   "stringId_B":  "9606.ENSP00000360266"
+                               }
+                  },
+                  {
+                      "source":  "TP53",
+                      "target":  "HSPA4",
+                      "kind":  "ppi",
+                      "source_db":  "STRING",
+                      "score":  0.997,
+                      "support":  1,
+                      "meta":  {
+                                   "stringId_A":  "9606.ENSP00000269305",
+                                   "stringId_B":  "9606.ENSP00000302961"
+                               }
+                  },
+                  {
+                      "source":  "TP53",
+                      "target":  "DDX5",
+                      "kind":  "ppi",
+                      "source_db":  "STRING",
+                      "score":  0.997,
+                      "support":  1,
+                      "meta":  {
+                                   "stringId_A":  "9606.ENSP00000269305",
+                                   "stringId_B":  "9606.ENSP00000225792"
+                               }
+                  },
+                  {
+                      "source":  "TP53",
+                      "target":  "CHEK1",
+                      "kind":  "ppi",
+                      "source_db":  "STRING",
+                      "score":  0.997,
+                      "support":  1,
+                      "meta":  {
+                                   "stringId_A":  "9606.ENSP00000269305",
+                                   "stringId_B":  "9606.ENSP00000391090"
+                               }
+                  },
+                  {
+                      "source":  "TP53",
+                      "target":  "PRKDC",
+                      "kind":  "ppi",
+                      "source_db":  "STRING",
+                      "score":  0.997,
+                      "support":  1,
+                      "meta":  {
+                                   "stringId_A":  "9606.ENSP00000269305",
+                                   "stringId_B":  "9606.ENSP00000313420"
+                               }
+                  },
+                  {
+                      "source":  "TP53",
+                      "target":  "MYC",
+                      "kind":  "ppi",
+                      "source_db":  "STRING",
+                      "score":  0.997,
+                      "support":  1,
+                      "meta":  {
+                                   "stringId_A":  "9606.ENSP00000269305",
+                                   "stringId_B":  "9606.ENSP00000478887"
+                               }
+                  },
+                  {
+                      "source":  "TP53",
+                      "target":  "NPM1",
+                      "kind":  "ppi",
+                      "source_db":  "STRING",
+                      "score":  0.997,
+                      "support":  1,
+                      "meta":  {
+                                   "stringId_A":  "9606.ENSP00000269305",
+                                   "stringId_B":  "9606.ENSP00000296930"
+                               }
+                  },
+                  {
+                      "source":  "TP53",
+                      "target":  "MAPK8",
+                      "kind":  "ppi",
+                      "source_db":  "STRING",
+                      "score":  0.997,
+                      "support":  1,
+                      "meta":  {
+                                   "stringId_A":  "9606.ENSP00000269305",
+                                   "stringId_B":  "9606.ENSP00000378974"
+                               }
+                  },
+                  {
+                      "source":  "TP53",
+                      "target":  "TBP",
+                      "kind":  "ppi",
+                      "source_db":  "STRING",
+                      "score":  0.997,
+                      "support":  1,
+                      "meta":  {
+                                   "stringId_A":  "9606.ENSP00000269305",
+                                   "stringId_B":  "9606.ENSP00000230354"
+                               }
+                  },
+                  {
+                      "source":  "TP53",
+                      "target":  "CCNA2",
+                      "kind":  "ppi",
+                      "source_db":  "STRING",
+                      "score":  0.997,
+                      "support":  1,
+                      "meta":  {
+                                   "stringId_A":  "9606.ENSP00000269305",
+                                   "stringId_B":  "9606.ENSP00000481380"
+                               }
+                  },
+                  {
+                      "source":  "TP53",
+                      "target":  "HMGB1",
+                      "kind":  "ppi",
+                      "source_db":  "STRING",
+                      "score":  0.997,
+                      "support":  1,
+                      "meta":  {
+                                   "stringId_A":  "9606.ENSP00000269305",
+                                   "stringId_B":  "9606.ENSP00000345347"
+                               }
+                  },
+                  {
+                      "source":  "TP53",
+                      "target":  "BAK1",
+                      "kind":  "ppi",
+                      "source_db":  "STRING",
+                      "score":  0.997,
+                      "support":  1,
+                      "meta":  {
+                                   "stringId_A":  "9606.ENSP00000269305",
+                                   "stringId_B":  "9606.ENSP00000363591"
+                               }
+                  },
+                  {
+                      "source":  "TP53",
+                      "target":  "KAT5",
+                      "kind":  "ppi",
+                      "source_db":  "STRING",
+                      "score":  0.996,
+                      "support":  1,
+                      "meta":  {
+                                   "stringId_A":  "9606.ENSP00000269305",
+                                   "stringId_B":  "9606.ENSP00000340330"
+                               }
+                  },
+                  {
+                      "source":  "TP53",
+                      "target":  "S100A4",
+                      "kind":  "ppi",
+                      "source_db":  "STRING",
+                      "score":  0.996,
+                      "support":  1,
+                      "meta":  {
+                                   "stringId_A":  "9606.ENSP00000269305",
+                                   "stringId_B":  "9606.ENSP00000357704"
+                               }
+                  },
+                  {
+                      "source":  "RBP",
+                      "target":  "geneName",
+                      "kind":  "rbp_target",
+                      "source_db":  "ENCORI",
+                      "score":  null,
+                      "support":  1,
+                      "meta":  {
+                                   "RBP":  "RBP",
+                                   "geneName":  "geneName"
+                               }
+                  },
+                  {
+                      "source":  "ALYREF",
+                      "target":  "TP53",
+                      "kind":  "rbp_target",
+                      "source_db":  "ENCORI",
+                      "score":  null,
+                      "support":  6,
+                      "meta":  {
+                                   "RBP":  "ALYREF",
+                                   "geneName":  "TP53"
+                               }
+                  },
+                  {
+                      "source":  "CPSF1",
+                      "target":  "TP53",
+                      "kind":  "rbp_target",
+                      "source_db":  "ENCORI",
+                      "score":  null,
+                      "support":  7,
+                      "meta":  {
+                                   "RBP":  "CPSF1",
+                                   "geneName":  "TP53"
+                               }
+                  },
+                  {
+                      "source":  "CSTF2T",
+                      "target":  "TP53",
+                      "kind":  "rbp_target",
+                      "source_db":  "ENCORI",
+                      "score":  null,
+                      "support":  5,
+                      "meta":  {
+                                   "RBP":  "CSTF2T",
+                                   "geneName":  "TP53"
+                               }
+                  },
+                  {
+                      "source":  "DDX3X",
+                      "target":  "TP53",
+                      "kind":  "rbp_target",
+                      "source_db":  "ENCORI",
+                      "score":  null,
+                      "support":  10,
+                      "meta":  {
+                                   "RBP":  "DDX3X",
+                                   "geneName":  "TP53"
+                               }
+                  },
+                  {
+                      "source":  "DDX54",
+                      "target":  "TP53",
+                      "kind":  "rbp_target",
+                      "source_db":  "ENCORI",
+                      "score":  null,
+                      "support":  6,
+                      "meta":  {
+                                   "RBP":  "DDX54",
+                                   "geneName":  "TP53"
+                               }
+                  },
+                  {
+                      "source":  "ELAVL1",
+                      "target":  "TP53",
+                      "kind":  "rbp_target",
+                      "source_db":  "ENCORI",
+                      "score":  null,
+                      "support":  14,
+                      "meta":  {
+                                   "RBP":  "ELAVL1",
+                                   "geneName":  "TP53"
+                               }
+                  },
+                  {
+                      "source":  "FUS",
+                      "target":  "TP53",
+                      "kind":  "rbp_target",
+                      "source_db":  "ENCORI",
+                      "score":  null,
+                      "support":  6,
+                      "meta":  {
+                                   "RBP":  "FUS",
+                                   "geneName":  "TP53"
+                               }
+                  },
+                  {
+                      "source":  "G3BP1",
+                      "target":  "TP53",
+                      "kind":  "rbp_target",
+                      "source_db":  "ENCORI",
+                      "score":  null,
+                      "support":  5,
+                      "meta":  {
+                                   "RBP":  "G3BP1",
+                                   "geneName":  "TP53"
+                               }
+                  },
+                  {
+                      "source":  "HNRNPC",
+                      "target":  "TP53",
+                      "kind":  "rbp_target",
+                      "source_db":  "ENCORI",
+                      "score":  null,
+                      "support":  12,
+                      "meta":  {
+                                   "RBP":  "HNRNPC",
+                                   "geneName":  "TP53"
+                               }
+                  },
+                  {
+                      "source":  "IGF2BP1",
+                      "target":  "TP53",
+                      "kind":  "rbp_target",
+                      "source_db":  "ENCORI",
+                      "score":  null,
+                      "support":  7,
+                      "meta":  {
+                                   "RBP":  "IGF2BP1",
+                                   "geneName":  "TP53"
+                               }
+                  },
+                  {
+                      "source":  "IGF2BP2",
+                      "target":  "TP53",
+                      "kind":  "rbp_target",
+                      "source_db":  "ENCORI",
+                      "score":  null,
+                      "support":  19,
+                      "meta":  {
+                                   "RBP":  "IGF2BP2",
+                                   "geneName":  "TP53"
+                               }
+                  },
+                  {
+                      "source":  "LIN28B",
+                      "target":  "TP53",
+                      "kind":  "rbp_target",
+                      "source_db":  "ENCORI",
+                      "score":  null,
+                      "support":  4,
+                      "meta":  {
+                                   "RBP":  "LIN28B",
+                                   "geneName":  "TP53"
+                               }
+                  },
+                  {
+                      "source":  "PCBP2",
+                      "target":  "TP53",
+                      "kind":  "rbp_target",
+                      "source_db":  "ENCORI",
+                      "score":  null,
+                      "support":  4,
+                      "meta":  {
+                                   "RBP":  "PCBP2",
+                                   "geneName":  "TP53"
+                               }
+                  },
+                  {
+                      "source":  "PTBP1",
+                      "target":  "TP53",
+                      "kind":  "rbp_target",
+                      "source_db":  "ENCORI",
+                      "score":  null,
+                      "support":  8,
+                      "meta":  {
+                                   "RBP":  "PTBP1",
+                                   "geneName":  "TP53"
+                               }
+                  },
+                  {
+                      "source":  "RBFOX2",
+                      "target":  "TP53",
+                      "kind":  "rbp_target",
+                      "source_db":  "ENCORI",
+                      "score":  null,
+                      "support":  8,
+                      "meta":  {
+                                   "RBP":  "RBFOX2",
+                                   "geneName":  "TP53"
+                               }
+                  },
+                  {
+                      "source":  "RBMX",
+                      "target":  "TP53",
+                      "kind":  "rbp_target",
+                      "source_db":  "ENCORI",
+                      "score":  null,
+                      "support":  9,
+                      "meta":  {
+                                   "RBP":  "RBMX",
+                                   "geneName":  "TP53"
+                               }
+                  },
+                  {
+                      "source":  "RNPS1",
+                      "target":  "TP53",
+                      "kind":  "rbp_target",
+                      "source_db":  "ENCORI",
+                      "score":  null,
+                      "support":  10,
+                      "meta":  {
+                                   "RBP":  "RNPS1",
+                                   "geneName":  "TP53"
+                               }
+                  },
+                  {
+                      "source":  "SCAF4",
+                      "target":  "TP53",
+                      "kind":  "rbp_target",
+                      "source_db":  "ENCORI",
+                      "score":  null,
+                      "support":  7,
+                      "meta":  {
+                                   "RBP":  "SCAF4",
+                                   "geneName":  "TP53"
+                               }
+                  },
+                  {
+                      "source":  "SCAF8",
+                      "target":  "TP53",
+                      "kind":  "rbp_target",
+                      "source_db":  "ENCORI",
+                      "score":  null,
+                      "support":  8,
+                      "meta":  {
+                                   "RBP":  "SCAF8",
+                                   "geneName":  "TP53"
+                               }
+                  },
+                  {
+                      "source":  "TARDBP",
+                      "target":  "TP53",
+                      "kind":  "rbp_target",
+                      "source_db":  "ENCORI",
+                      "score":  null,
+                      "support":  9,
+                      "meta":  {
+                                   "RBP":  "TARDBP",
+                                   "geneName":  "TP53"
+                               }
+                  },
+                  {
+                      "source":  "U2AF1",
+                      "target":  "TP53",
+                      "kind":  "rbp_target",
+                      "source_db":  "ENCORI",
+                      "score":  null,
+                      "support":  12,
+                      "meta":  {
+                                   "RBP":  "U2AF1",
+                                   "geneName":  "TP53"
+                               }
+                  },
+                  {
+                      "source":  "U2AF2",
+                      "target":  "TP53",
+                      "kind":  "rbp_target",
+                      "source_db":  "ENCORI",
+                      "score":  null,
+                      "support":  12,
+                      "meta":  {
+                                   "RBP":  "U2AF2",
+                                   "geneName":  "TP53"
+                               }
+                  },
+                  {
+                      "source":  "YBX1",
+                      "target":  "TP53",
+                      "kind":  "rbp_target",
+                      "source_db":  "ENCORI",
+                      "score":  null,
+                      "support":  4,
+                      "meta":  {
+                                   "RBP":  "YBX1",
+                                   "geneName":  "TP53"
+                               }
+                  },
+                  {
+                      "source":  "YTHDC1",
+                      "target":  "TP53",
+                      "kind":  "rbp_target",
+                      "source_db":  "ENCORI",
+                      "score":  null,
+                      "support":  11,
+                      "meta":  {
+                                   "RBP":  "YTHDC1",
+                                   "geneName":  "TP53"
+                               }
+                  },
+                  {
+                      "source":  "YTHDF1",
+                      "target":  "TP53",
+                      "kind":  "rbp_target",
+                      "source_db":  "ENCORI",
+                      "score":  null,
+                      "support":  9,
+                      "meta":  {
+                                   "RBP":  "YTHDF1",
+                                   "geneName":  "TP53"
+                               }
+                  },
+                  {
+                      "source":  "YTHDF2",
+                      "target":  "TP53",
+                      "kind":  "rbp_target",
+                      "source_db":  "ENCORI",
+                      "score":  null,
+                      "support":  10,
+                      "meta":  {
+                                   "RBP":  "YTHDF2",
+                                   "geneName":  "TP53"
+                               }
+                  }
+              ],
+    "meta":  {
+                 "seeds":  [
+                               "TP53"
+                           ],
+                 "sources":  [
+                                 "string_ppi",
+                                 "encori_rbp_by_target"
+                             ],
+                 "species_taxon":  9606,
+                 "counts":  {
+                                "nodes":  79,
+                                "edges":  77
+                            },
+                 "generated_at":  "2026-02-16T14:42:56"
+             }
+}

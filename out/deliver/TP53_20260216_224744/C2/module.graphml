@@ -1,0 +1,753 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d6" for="edge" attr.name="support" attr.type="long" />
+  <key id="d5" for="edge" attr.name="score" attr.type="double" />
+  <key id="d4" for="edge" attr.name="source_db" attr.type="string" />
+  <key id="d3" for="edge" attr.name="kind" attr.type="string" />
+  <key id="d2" for="node" attr.name="sources" attr.type="string" />
+  <key id="d1" for="node" attr.name="kind" attr.type="string" />
+  <key id="d0" for="node" attr.name="label" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="ATM">
+      <data key="d0">ATM</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="CHEK2">
+      <data key="d0">CHEK2</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="BRCA1">
+      <data key="d0">BRCA1</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="RPA1">
+      <data key="d0">RPA1</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="TP53BP1">
+      <data key="d0">TP53BP1</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="RAD51">
+      <data key="d0">RAD51</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="CHEK1">
+      <data key="d0">CHEK1</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="ATR">
+      <data key="d0">ATR</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="BRCA2">
+      <data key="d0">BRCA2</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="BARD1">
+      <data key="d0">BARD1</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="RPA3">
+      <data key="d0">RPA3</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="RPA2">
+      <data key="d0">RPA2</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="BLM">
+      <data key="d0">BLM</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="PRIMPOL">
+      <data key="d0">PRIMPOL</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="RMI1">
+      <data key="d0">RMI1</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="RAD52">
+      <data key="d0">RAD52</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="ATRIP">
+      <data key="d0">ATRIP</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="WRN">
+      <data key="d0">WRN</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="FANCM">
+      <data key="d0">FANCM</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="ATRX">
+      <data key="d0">ATRX</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="MDC1">
+      <data key="d0">MDC1</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="MSH6">
+      <data key="d0">MSH6</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="MRE11">
+      <data key="d0">MRE11</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="MSH2">
+      <data key="d0">MSH2</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="NBN">
+      <data key="d0">NBN</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="H2AX">
+      <data key="d0">H2AX</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="CDC25C">
+      <data key="d0">CDC25C</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="TOPBP1">
+      <data key="d0">TOPBP1</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="RAD9A">
+      <data key="d0">RAD9A</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="HUS1">
+      <data key="d0">HUS1</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="CDC7">
+      <data key="d0">CDC7</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="SEM1">
+      <data key="d0">SEM1</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="PALB2">
+      <data key="d0">PALB2</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="FANCD2">
+      <data key="d0">FANCD2</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="RAD51C">
+      <data key="d0">RAD51C</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="XRCC3">
+      <data key="d0">XRCC3</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="BRIP1">
+      <data key="d0">BRIP1</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="BCCIP">
+      <data key="d0">BCCIP</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="PAXIP1">
+      <data key="d0">PAXIP1</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="H2AC18">
+      <data key="d0">H2AC18</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="USP28">
+      <data key="d0">USP28</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="CDC25A">
+      <data key="d0">CDC25A</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="CLSPN">
+      <data key="d0">CLSPN</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="CDC45">
+      <data key="d0">CDC45</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="TIMELESS">
+      <data key="d0">TIMELESS</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="RAD50">
+      <data key="d0">RAD50</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="ABRAXAS1">
+      <data key="d0">ABRAXAS1</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="UIMC1">
+      <data key="d0">UIMC1</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="RBBP8">
+      <data key="d0">RBBP8</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="BABAM2">
+      <data key="d0">BABAM2</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="BRCC3">
+      <data key="d0">BRCC3</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <edge source="ATM" target="BRCA1">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="ATM" target="CHEK2">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">2</data>
+    </edge>
+    <edge source="ATM" target="MDC1">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="ATM" target="MSH6">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="ATM" target="MRE11">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="ATM" target="MSH2">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="ATM" target="NBN">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="ATM" target="ATR">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">2</data>
+    </edge>
+    <edge source="ATM" target="TP53BP1">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">2</data>
+    </edge>
+    <edge source="ATM" target="CHEK1">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.998</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="CHEK2" target="ATR">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.998</data>
+      <data key="d6">2</data>
+    </edge>
+    <edge source="CHEK2" target="BRCA1">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="CHEK2" target="CDC25A">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.998</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="CHEK2" target="CDC25C">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.998</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="CHEK2" target="TP53BP1">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.996</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="CHEK2" target="MDC1">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.99</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="CHEK2" target="CDC7">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.988</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="CHEK2" target="BRCA2">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.985</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="BRCA1" target="ATR">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.996</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="BRCA1" target="BRCA2">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">2</data>
+    </edge>
+    <edge source="BRCA1" target="TP53BP1">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="BRCA1" target="CHEK1">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.996</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="BRCA1" target="MDC1">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="BRCA1" target="PALB2">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="BRCA1" target="RAD50">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="BRCA1" target="BARD1">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">2</data>
+    </edge>
+    <edge source="BRCA1" target="MRE11">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="BRCA1" target="ABRAXAS1">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="BRCA1" target="FANCD2">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="BRCA1" target="H2AX">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="BRCA1" target="RAD51">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="RPA1" target="RPA3">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="RPA1" target="RPA2">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="RPA1" target="BLM">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="RPA1" target="PRIMPOL">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="RPA1" target="RMI1">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="RPA1" target="RAD52">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="RPA1" target="ATRIP">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="RPA1" target="WRN">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="RPA1" target="FANCM">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="TP53BP1" target="PAXIP1">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="TP53BP1" target="H2AX">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="TP53BP1" target="MDC1">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="TP53BP1" target="H2AC18">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="TP53BP1" target="TOPBP1">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="TP53BP1" target="USP28">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.998</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="RAD51" target="BRCA2">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">2</data>
+    </edge>
+    <edge source="RAD51" target="CHEK1">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.998</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="RAD51" target="RAD52">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="RAD51" target="PALB2">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="RAD51" target="BARD1">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">2</data>
+    </edge>
+    <edge source="RAD51" target="ATRX">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="RAD51" target="BLM">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.998</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="RAD51" target="FANCD2">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.998</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="RAD51" target="XRCC3">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.998</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="CHEK1" target="ATR">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">2</data>
+    </edge>
+    <edge source="CHEK1" target="CDC25C">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="CHEK1" target="CDC25A">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="CHEK1" target="CLSPN">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="CHEK1" target="CDC45">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.994</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="CHEK1" target="TIMELESS">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.993</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="ATR" target="ATRIP">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="ATR" target="TOPBP1">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.996</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="ATR" target="RAD9A">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.994</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="ATR" target="HUS1">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.992</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="ATR" target="CDC7">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.992</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="BRCA2" target="SEM1">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="BRCA2" target="PALB2">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="BRCA2" target="BARD1">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">2</data>
+    </edge>
+    <edge source="BRCA2" target="FANCD2">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="BRCA2" target="RAD51C">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="BRCA2" target="XRCC3">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="BRCA2" target="BRIP1">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.998</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="BRCA2" target="BCCIP">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.997</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="BARD1" target="UIMC1">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="BARD1" target="RBBP8">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="BARD1" target="MRE11">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="BARD1" target="ABRAXAS1">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="BARD1" target="BABAM2">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="BARD1" target="BRIP1">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="BARD1" target="BRCC3">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+  </graph>
+</graphml>

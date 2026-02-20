@@ -1,0 +1,1339 @@
+{
+  "nodes": [
+    {
+      "id": "ATM",
+      "label": "ATM",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "CHEK2",
+      "label": "CHEK2",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "BRCA1",
+      "label": "BRCA1",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "RPA1",
+      "label": "RPA1",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "TP53BP1",
+      "label": "TP53BP1",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "RAD51",
+      "label": "RAD51",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "CHEK1",
+      "label": "CHEK1",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "ATR",
+      "label": "ATR",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "BRCA2",
+      "label": "BRCA2",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "BARD1",
+      "label": "BARD1",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "RPA3",
+      "label": "RPA3",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "RPA2",
+      "label": "RPA2",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "BLM",
+      "label": "BLM",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "PRIMPOL",
+      "label": "PRIMPOL",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "RMI1",
+      "label": "RMI1",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "RAD52",
+      "label": "RAD52",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "ATRIP",
+      "label": "ATRIP",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "WRN",
+      "label": "WRN",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "FANCM",
+      "label": "FANCM",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "ATRX",
+      "label": "ATRX",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "MDC1",
+      "label": "MDC1",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "MSH6",
+      "label": "MSH6",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "MRE11",
+      "label": "MRE11",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "MSH2",
+      "label": "MSH2",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "NBN",
+      "label": "NBN",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "H2AX",
+      "label": "H2AX",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "CDC25C",
+      "label": "CDC25C",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "TOPBP1",
+      "label": "TOPBP1",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "RAD9A",
+      "label": "RAD9A",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "HUS1",
+      "label": "HUS1",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "CDC7",
+      "label": "CDC7",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "SEM1",
+      "label": "SEM1",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "PALB2",
+      "label": "PALB2",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "FANCD2",
+      "label": "FANCD2",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "RAD51C",
+      "label": "RAD51C",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "XRCC3",
+      "label": "XRCC3",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "BRIP1",
+      "label": "BRIP1",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "BCCIP",
+      "label": "BCCIP",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "PAXIP1",
+      "label": "PAXIP1",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "H2AC18",
+      "label": "H2AC18",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "USP28",
+      "label": "USP28",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "CDC25A",
+      "label": "CDC25A",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "CLSPN",
+      "label": "CLSPN",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "CDC45",
+      "label": "CDC45",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "TIMELESS",
+      "label": "TIMELESS",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "RAD50",
+      "label": "RAD50",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "ABRAXAS1",
+      "label": "ABRAXAS1",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "UIMC1",
+      "label": "UIMC1",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "RBBP8",
+      "label": "RBBP8",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "BABAM2",
+      "label": "BABAM2",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    },
+    {
+      "id": "BRCC3",
+      "label": "BRCC3",
+      "kind": "protein",
+      "sources": [
+        "STRING"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "RPA1",
+      "target": "RPA3",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "RPA1",
+      "target": "RPA2",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "RPA1",
+      "target": "BLM",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "RPA1",
+      "target": "PRIMPOL",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "RPA1",
+      "target": "RMI1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "RPA1",
+      "target": "RAD52",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "RPA1",
+      "target": "ATRIP",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "RPA1",
+      "target": "WRN",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "RPA1",
+      "target": "FANCM",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "ATM",
+      "target": "BRCA1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "ATM",
+      "target": "CHEK2",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 2,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "ATM",
+      "target": "MDC1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "ATM",
+      "target": "MSH6",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "ATM",
+      "target": "MRE11",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "ATM",
+      "target": "MSH2",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "ATM",
+      "target": "NBN",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "ATM",
+      "target": "ATR",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 2,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "ATM",
+      "target": "TP53BP1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 2,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "ATR",
+      "target": "CHEK1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 2,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "ATR",
+      "target": "ATRIP",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "ATR",
+      "target": "CHEK2",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.998,
+      "support": 2,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "ATR",
+      "target": "BRCA1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.996,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "ATR",
+      "target": "TOPBP1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.996,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "ATR",
+      "target": "RAD9A",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.994,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "ATR",
+      "target": "HUS1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.992,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "ATR",
+      "target": "CDC7",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.992,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "BRCA2",
+      "target": "SEM1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "BRCA2",
+      "target": "RAD51",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 2,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "BRCA2",
+      "target": "PALB2",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "BRCA2",
+      "target": "BARD1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 2,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "BRCA2",
+      "target": "FANCD2",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "BRCA2",
+      "target": "BRCA1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 2,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "BRCA2",
+      "target": "RAD51C",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "BRCA2",
+      "target": "XRCC3",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "BRCA2",
+      "target": "BRIP1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.998,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "BRCA2",
+      "target": "BCCIP",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.997,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "TP53BP1",
+      "target": "PAXIP1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "TP53BP1",
+      "target": "H2AX",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "TP53BP1",
+      "target": "BRCA1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "TP53BP1",
+      "target": "MDC1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "TP53BP1",
+      "target": "H2AC18",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "TP53BP1",
+      "target": "TOPBP1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "TP53BP1",
+      "target": "USP28",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.998,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CHEK2",
+      "target": "BRCA1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CHEK2",
+      "target": "CDC25A",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.998,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CHEK2",
+      "target": "CDC25C",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.998,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CHEK2",
+      "target": "TP53BP1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.996,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CHEK2",
+      "target": "MDC1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.99,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CHEK2",
+      "target": "CDC7",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.988,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CHEK2",
+      "target": "BRCA2",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.985,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CHEK1",
+      "target": "CDC25C",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CHEK1",
+      "target": "CDC25A",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CHEK1",
+      "target": "CLSPN",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CHEK1",
+      "target": "ATM",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.998,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CHEK1",
+      "target": "RAD51",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.998,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CHEK1",
+      "target": "BRCA1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.996,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CHEK1",
+      "target": "CDC45",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.994,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "CHEK1",
+      "target": "TIMELESS",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.993,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "BRCA1",
+      "target": "MDC1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "BRCA1",
+      "target": "PALB2",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "BRCA1",
+      "target": "RAD50",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "BRCA1",
+      "target": "BARD1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 2,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "BRCA1",
+      "target": "MRE11",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "BRCA1",
+      "target": "ABRAXAS1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "BRCA1",
+      "target": "FANCD2",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "BRCA1",
+      "target": "H2AX",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "RAD51",
+      "target": "RAD52",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "RAD51",
+      "target": "PALB2",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "RAD51",
+      "target": "BARD1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 2,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "RAD51",
+      "target": "BRCA1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "RAD51",
+      "target": "ATRX",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "RAD51",
+      "target": "BLM",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.998,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "RAD51",
+      "target": "FANCD2",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.998,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "RAD51",
+      "target": "XRCC3",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.998,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "BARD1",
+      "target": "UIMC1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "BARD1",
+      "target": "RBBP8",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "BARD1",
+      "target": "MRE11",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "BARD1",
+      "target": "ABRAXAS1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "BARD1",
+      "target": "BABAM2",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "BARD1",
+      "target": "BRIP1",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    },
+    {
+      "source": "BARD1",
+      "target": "BRCC3",
+      "kind": "ppi",
+      "source_db": "STRING",
+      "score": 0.999,
+      "support": 1,
+      "meta": {
+        "depth": 2
+      }
+    }
+  ],
+  "meta": {
+    "seeds": [
+      "TP53"
+    ],
+    "sources": [
+      "string_ppi",
+      "encori_rbp_by_target"
+    ],
+    "species_taxon": 9606,
+    "params": {
+      "string_required_score": 400,
+      "string_limit": 100,
+      "string_depth": 2,
+      "string_depth2_limit": 10,
+      "assembly": "hg38",
+      "gene_type": "mRNA",
+      "cell_type": "all",
+      "clip_exp_num": 5,
+      "pancancer_num": 0,
+      "inter_num": 1,
+      "exp_num": 1,
+      "max_nodes": 2000
+    },
+    "counts": {
+      "nodes": 51,
+      "edges": 81
+    },
+    "generated_at": "2026-02-16T22:48:09",
+    "module": {
+      "cid": 2,
+      "min_size": 3,
+      "size": 51
+    }
+  }
+}

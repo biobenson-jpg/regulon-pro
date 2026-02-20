@@ -1,0 +1,734 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d6" for="edge" attr.name="support" attr.type="long" />
+  <key id="d5" for="edge" attr.name="score" attr.type="double" />
+  <key id="d4" for="edge" attr.name="source_db" attr.type="string" />
+  <key id="d3" for="edge" attr.name="kind" attr.type="string" />
+  <key id="d2" for="node" attr.name="sources" attr.type="string" />
+  <key id="d1" for="node" attr.name="kind" attr.type="string" />
+  <key id="d0" for="node" attr.name="label" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="CDKN1A">
+      <data key="d0">CDKN1A</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="AURKA">
+      <data key="d0">AURKA</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="CCNG1">
+      <data key="d0">CCNG1</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="FOXO3">
+      <data key="d0">FOXO3</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="CCNA2">
+      <data key="d0">CCNA2</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="GADD45A">
+      <data key="d0">GADD45A</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="CDKN1B">
+      <data key="d0">CDKN1B</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="CDK2">
+      <data key="d0">CDK2</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="E2F1">
+      <data key="d0">E2F1</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="PLK1">
+      <data key="d0">PLK1</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="TPX2">
+      <data key="d0">TPX2</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="TACC3">
+      <data key="d0">TACC3</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="MYCN">
+      <data key="d0">MYCN</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="CDC20">
+      <data key="d0">CDC20</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="INCENP">
+      <data key="d0">INCENP</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="BIRC5">
+      <data key="d0">BIRC5</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="NEDD9">
+      <data key="d0">NEDD9</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="CCNB2">
+      <data key="d0">CCNB2</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="CCNB1">
+      <data key="d0">CCNB1</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="CDK1">
+      <data key="d0">CDK1</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="GAK">
+      <data key="d0">GAK</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="CCNG2">
+      <data key="d0">CCNG2</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="PPP2R5C">
+      <data key="d0">PPP2R5C</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="PPP2R1A">
+      <data key="d0">PPP2R1A</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="CDK5">
+      <data key="d0">CDK5</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="CCNL2">
+      <data key="d0">CCNL2</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="CDK4">
+      <data key="d0">CDK4</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="CDK6">
+      <data key="d0">CDK6</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="CCND3">
+      <data key="d0">CCND3</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="CCNE1">
+      <data key="d0">CCNE1</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="PCNA">
+      <data key="d0">PCNA</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="CCND1">
+      <data key="d0">CCND1</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="CCNA1">
+      <data key="d0">CCNA1</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="CCNE2">
+      <data key="d0">CCNE2</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="SKP2">
+      <data key="d0">SKP2</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="ANAPC4">
+      <data key="d0">ANAPC4</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="CCND2">
+      <data key="d0">CCND2</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="CDKN1C">
+      <data key="d0">CDKN1C</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="SKP1">
+      <data key="d0">SKP1</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="BUB1B">
+      <data key="d0">BUB1B</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="FZR1">
+      <data key="d0">FZR1</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="ERCC6L">
+      <data key="d0">ERCC6L</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="BORA">
+      <data key="d0">BORA</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="BUB1">
+      <data key="d0">BUB1</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="CENPU">
+      <data key="d0">CENPU</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="TFDP1">
+      <data key="d0">TFDP1</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="TFDP2">
+      <data key="d0">TFDP2</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="RBL1">
+      <data key="d0">RBL1</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="MAP3K4">
+      <data key="d0">MAP3K4</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="TDG">
+      <data key="d0">TDG</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="GADD45GIP1">
+      <data key="d0">GADD45GIP1</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <node id="GADD45B">
+      <data key="d0">GADD45B</data>
+      <data key="d1">protein</data>
+      <data key="d2">STRING</data>
+    </node>
+    <edge source="CDKN1A" target="FOXO3">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.995</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="CDKN1A" target="CDK6">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="CDKN1A" target="CDK4">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="CDKN1A" target="CCND3">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="CDKN1A" target="CCNE1">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="CDKN1A" target="PCNA">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="CDKN1A" target="CCND1">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="CDKN1A" target="CCNA1">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="CDKN1A" target="CCNE2">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="CDKN1A" target="CDK2">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="CDKN1A" target="CCNA2">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="CDKN1A" target="GADD45A">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.974</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="AURKA" target="TPX2">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="AURKA" target="TACC3">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.998</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="AURKA" target="MYCN">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.998</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="AURKA" target="PLK1">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.997</data>
+      <data key="d6">2</data>
+    </edge>
+    <edge source="AURKA" target="CDC20">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.995</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="AURKA" target="INCENP">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.994</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="AURKA" target="BIRC5">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.993</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="AURKA" target="NEDD9">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.99</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="AURKA" target="CCNB2">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.988</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="AURKA" target="GADD45A">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.961</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="CCNG1" target="GAK">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.963</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="CCNG1" target="CCNG2">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.911</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="CCNG1" target="PPP2R5C">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.849</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="CCNG1" target="PPP2R1A">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.818</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="CCNG1" target="CDK5">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.817</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="CCNG1" target="CCNL2">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.78</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="CCNG1" target="CDK1">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.772</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="CCNG1" target="CDK2">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.735</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="FOXO3" target="CDK2">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">2</data>
+    </edge>
+    <edge source="FOXO3" target="E2F1">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.994</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="CCNA2" target="CDK1">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="CCNA2" target="CDK2">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">2</data>
+    </edge>
+    <edge source="CCNA2" target="SKP2">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="CCNA2" target="E2F1">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">2</data>
+    </edge>
+    <edge source="CCNA2" target="CDKN1B">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">2</data>
+    </edge>
+    <edge source="CCNA2" target="CDC20">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="CCNA2" target="ANAPC4">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="CCNA2" target="CDK4">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="CCNA2" target="CDK6">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="GADD45A" target="MAP3K4">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="GADD45A" target="CDK1">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.997</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="GADD45A" target="TDG">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.987</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="GADD45A" target="PCNA">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.987</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="GADD45A" target="GADD45GIP1">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.985</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="GADD45A" target="CCNB1">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.983</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="GADD45A" target="GADD45B">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.965</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="CDKN1B" target="CDK4">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="CDKN1B" target="CDK6">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="CDKN1B" target="CCND3">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="CDKN1B" target="CCNE1">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="CDKN1B" target="CCND1">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="CDKN1B" target="SKP2">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="CDKN1B" target="CDK2">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">2</data>
+    </edge>
+    <edge source="CDKN1B" target="CCNA1">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="CDKN1B" target="CCND2">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="CDK2" target="CDKN1C">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="CDK2" target="CCNE2">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="CDK2" target="CCNA1">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="CDK2" target="CCNL2">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="CDK2" target="SKP1">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="CDK2" target="CCND1">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="CDK2" target="SKP2">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="CDK2" target="E2F1">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.997</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="E2F1" target="CCNA1">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="E2F1" target="TFDP1">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="E2F1" target="TFDP2">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.997</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="E2F1" target="RBL1">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.994</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="PLK1" target="CCNB1">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="PLK1" target="CDC20">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="PLK1" target="BUB1B">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="PLK1" target="FZR1">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.999</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="PLK1" target="ERCC6L">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.998</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="PLK1" target="BORA">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.997</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="PLK1" target="BUB1">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.996</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="PLK1" target="CENPU">
+      <data key="d3">ppi</data>
+      <data key="d4">STRING</data>
+      <data key="d5">0.996</data>
+      <data key="d6">1</data>
+    </edge>
+  </graph>
+</graphml>

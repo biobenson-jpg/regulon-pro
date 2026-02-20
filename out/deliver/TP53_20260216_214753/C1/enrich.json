@@ -1,0 +1,116 @@
+﻿{
+    "tool":  "gprofiler",
+    "organism":  "hsapiens",
+    "sources":  [
+                    "GO:BP",
+                    "REAC",
+                    "KEGG"
+                ],
+    "terms":  [
+                  {
+                      "source":  "KEGG",
+                      "term_id":  "KEGG:05161",
+                      "term_name":  "Hepatitis B",
+                      "p_value":  1.6660667598141117E-27,
+                      "intersection_size":  24
+                  },
+                  {
+                      "source":  "GO:BP",
+                      "term_id":  "GO:1901700",
+                      "term_name":  "response to oxygen-containing compound",
+                      "p_value":  9.2737700312848681E-26,
+                      "intersection_size":  36
+                  },
+                  {
+                      "source":  "GO:BP",
+                      "term_id":  "GO:1901701",
+                      "term_name":  "cellular response to oxygen-containing compound",
+                      "p_value":  2.2502032173313386E-23,
+                      "intersection_size":  31
+                  },
+                  {
+                      "source":  "GO:BP",
+                      "term_id":  "GO:0045944",
+                      "term_name":  "positive regulation of transcription by RNA polymerase II",
+                      "p_value":  1.4132113360645326E-22,
+                      "intersection_size":  31
+                  },
+                  {
+                      "source":  "GO:BP",
+                      "term_id":  "GO:0009891",
+                      "term_name":  "positive regulation of biosynthetic process",
+                      "p_value":  1.9302263783788835E-22,
+                      "intersection_size":  39
+                  },
+                  {
+                      "source":  "GO:BP",
+                      "term_id":  "GO:0035556",
+                      "term_name":  "intracellular signal transduction",
+                      "p_value":  3.0599527246494878E-22,
+                      "intersection_size":  40
+                  },
+                  {
+                      "source":  "GO:BP",
+                      "term_id":  "GO:0010604",
+                      "term_name":  "positive regulation of macromolecule metabolic process",
+                      "p_value":  7.3273002898192087E-22,
+                      "intersection_size":  41
+                  },
+                  {
+                      "source":  "GO:BP",
+                      "term_id":  "GO:0009893",
+                      "term_name":  "positive regulation of metabolic process",
+                      "p_value":  1.109869254524061E-21,
+                      "intersection_size":  42
+                  },
+                  {
+                      "source":  "GO:BP",
+                      "term_id":  "GO:0070887",
+                      "term_name":  "cellular response to chemical stimulus",
+                      "p_value":  1.2799990928138495E-21,
+                      "intersection_size":  36
+                  },
+                  {
+                      "source":  "GO:BP",
+                      "term_id":  "GO:0045935",
+                      "term_name":  "positive regulation of nucleobase-containing compound metabolic process",
+                      "p_value":  2.2432994837583696E-21,
+                      "intersection_size":  35
+                  },
+                  {
+                      "source":  "GO:BP",
+                      "term_id":  "GO:0010557",
+                      "term_name":  "positive regulation of macromolecule biosynthetic process",
+                      "p_value":  2.2113726449563122E-20,
+                      "intersection_size":  37
+                  },
+                  {
+                      "source":  "GO:BP",
+                      "term_id":  "GO:0048518",
+                      "term_name":  "positive regulation of biological process",
+                      "p_value":  5.3505790664254332E-20,
+                      "intersection_size":  48
+                  },
+                  {
+                      "source":  "GO:BP",
+                      "term_id":  "GO:0045893",
+                      "term_name":  "positive regulation of DNA-templated transcription",
+                      "p_value":  5.913922840811272E-20,
+                      "intersection_size":  32
+                  },
+                  {
+                      "source":  "GO:BP",
+                      "term_id":  "GO:1902680",
+                      "term_name":  "positive regulation of RNA biosynthetic process",
+                      "p_value":  6.1321756264348155E-20,
+                      "intersection_size":  32
+                  },
+                  {
+                      "source":  "KEGG",
+                      "term_id":  "KEGG:05166",
+                      "term_name":  "Human T-cell leukemia virus 1 infection",
+                      "p_value":  1.4818267656285633E-19,
+                      "intersection_size":  21
+                  }
+              ]
+}

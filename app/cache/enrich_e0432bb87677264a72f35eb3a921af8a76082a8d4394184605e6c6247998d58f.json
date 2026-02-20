@@ -1,0 +1,116 @@
+{
+  "tool": "gprofiler",
+  "organism": "hsapiens",
+  "sources": [
+    "GO:BP",
+    "REAC",
+    "KEGG"
+  ],
+  "terms": [
+    {
+      "source": "KEGG",
+      "term_id": "KEGG:04110",
+      "term_name": "Cell cycle",
+      "p_value": 5.638863127360357e-49,
+      "intersection_size": 33
+    },
+    {
+      "source": "REAC",
+      "term_id": "REAC:R-HSA-69278",
+      "term_name": "Cell Cycle, Mitotic",
+      "p_value": 1.5211369350472211e-38,
+      "intersection_size": 38
+    },
+    {
+      "source": "GO:BP",
+      "term_id": "GO:0044772",
+      "term_name": "mitotic cell cycle phase transition",
+      "p_value": 2.8965256601260582e-36,
+      "intersection_size": 31
+    },
+    {
+      "source": "GO:BP",
+      "term_id": "GO:1903047",
+      "term_name": "mitotic cell cycle process",
+      "p_value": 1.718700767663065e-35,
+      "intersection_size": 35
+    },
+    {
+      "source": "REAC",
+      "term_id": "REAC:R-HSA-1640170",
+      "term_name": "Cell Cycle",
+      "p_value": 5.5932909806024e-35,
+      "intersection_size": 38
+    },
+    {
+      "source": "GO:BP",
+      "term_id": "GO:0000278",
+      "term_name": "mitotic cell cycle",
+      "p_value": 1.914096263983177e-34,
+      "intersection_size": 36
+    },
+    {
+      "source": "GO:BP",
+      "term_id": "GO:0007049",
+      "term_name": "cell cycle",
+      "p_value": 4.198093077749606e-34,
+      "intersection_size": 42
+    },
+    {
+      "source": "GO:BP",
+      "term_id": "GO:0044770",
+      "term_name": "cell cycle phase transition",
+      "p_value": 2.7674663584111663e-33,
+      "intersection_size": 31
+    },
+    {
+      "source": "GO:BP",
+      "term_id": "GO:0051726",
+      "term_name": "regulation of cell cycle",
+      "p_value": 5.260616833615679e-33,
+      "intersection_size": 37
+    },
+    {
+      "source": "GO:BP",
+      "term_id": "GO:0022402",
+      "term_name": "cell cycle process",
+      "p_value": 5.263774920939735e-32,
+      "intersection_size": 38
+    },
+    {
+      "source": "REAC",
+      "term_id": "REAC:R-HSA-9687139",
+      "term_name": "Aberrant regulation of mitotic cell cycle due to RB1 defects",
+      "p_value": 9.446318732882549e-30,
+      "intersection_size": 17
+    },
+    {
+      "source": "REAC",
+      "term_id": "REAC:R-HSA-69236",
+      "term_name": "G1 Phase",
+      "p_value": 1.3820805634777503e-29,
+      "intersection_size": 18
+    },
+    {
+      "source": "REAC",
+      "term_id": "REAC:R-HSA-69231",
+      "term_name": "Cyclin D associated events in G1",
+      "p_value": 1.3820805634777503e-29,
+      "intersection_size": 18
+    },
+    {
+      "source": "REAC",
+      "term_id": "REAC:R-HSA-9659787",
+      "term_name": "Aberrant regulation of mitotic G1/S transition in cancer due to RB1 defects",
+      "p_value": 2.8800286756275654e-29,
+      "intersection_size": 14
+    },
+    {
+      "source": "REAC",
+      "term_id": "REAC:R-HSA-9661069",
+      "term_name": "Defective binding of RB1 mutants to E2F1,(E2F2, E2F3)",
+      "p_value": 2.8800286756275654e-29,
+      "intersection_size": 14
+    }
+  ]
+}

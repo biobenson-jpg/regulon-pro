@@ -1,0 +1,54 @@
+﻿{
+    "cid":  1,
+    "module_size":  51,
+    "label":  "Chromatin / transcription regulation",
+    "score":  31,
+    "evidence":  {
+                     "hub_hits":  [
+                                      "CREBBP",
+                                      "EP300",
+                                      "FOS",
+                                      "JUN",
+                                      "JUNB",
+                                      "JUND",
+                                      "SP1"
+                                  ],
+                     "gene_hits":  [
+                                       "CREBBP",
+                                       "EP300",
+                                       "FOS",
+                                       "FOSB",
+                                       "FOSL1",
+                                       "FOSL2",
+                                       "JUN",
+                                       "JUNB",
+                                       "JUND",
+                                       "SP1"
+                                   ],
+                     "rule_patterns":  [
+                                           "^(HDAC|KAT|EP300|CREBBP|SMARC|ARID|EZH|KDM|BRD|MED|POLR|SP1|MYC|JUN|FOS)"
+                                       ],
+                     "top_hubs":  [
+                                      "JUN",
+                                      "CREBBP",
+                                      "STAT3",
+                                      "MAPK9",
+                                      "MAPK8",
+                                      "EP300",
+                                      "ATF3",
+                                      "CREB1",
+                                      "ESR1",
+                                      "FOXO4",
+                                      "SP1",
+                                      "JUND",
+                                      "NCOA1",
+                                      "SMAD3",
+                                      "FOS",
+                                      "JUNB",
+                                      "NCOA3",
+                                      "STAT1",
+                                      "RELA",
+                                      "SRC"
+                                  ]
+                 }
+}
