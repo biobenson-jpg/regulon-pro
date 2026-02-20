@@ -4,12 +4,9 @@ import os
 
 router = APIRouter()
 
-# 🚀 雲端/本機 雙棲智慧連線設定
 if os.path.exists("/mnt/gcs/regulon.db"):
-    # 如果系統發現在 Google 雲端，就去讀取我們等一下要掛載的「雲端隨身碟」
     DB_PATH = "/mnt/gcs/regulon.db"
 else:
-    # 否則就乖乖讀取你筆電裡面的檔案
     DB_PATH = r"C:\Users\biobe\Desktop\API_Interactomes\regulon.db"
 
 @router.get("/network")
@@ -21,13 +18,14 @@ async def get_targeted_network(seed: str, mode: str = 'All', all_seeds: str = ''
 
     if os.path.exists(DB_PATH):
         try:
-            conn = sqlite3.connect(DB_PATH)
+            # 🚀 終極解法：強制以「唯讀模式 (mode=ro)」開啟資料庫，完美避開雲端硬碟的鎖定衝突
+            db_uri = f"file:{DB_PATH}?mode=ro"
+            conn = sqlite3.connect(db_uri, uri=True)
             c = conn.cursor()
             
             query_base = "SELECT target, type, db FROM interactions WHERE seed = ?"
             params = [seed]
             
-            # 過濾分子屬性，並保留 Seed 的豁免權
             if mode == 'RNA':
                 if seed_list:
                     placeholders = ','.join(['?'] * len(seed_list))
