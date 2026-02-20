@@ -1,54 +1,45 @@
 ﻿from fastapi import APIRouter
 import sqlite3
 import os
-import shutil
+import traceback
 
 router = APIRouter()
-DB_COPIED = False
 
 @router.get("/debug")
 async def system_check():
-    debug_info = {
-        "1_gcs_folder_exists": os.path.exists("/mnt/gcs"),
-        "2_files_in_gcs": os.listdir("/mnt/gcs") if os.path.exists("/mnt/gcs") else [],
-        "3_files_in_ram": os.listdir("/tmp") if os.path.exists("/tmp") else []
-    }
-    return debug_info
+    try:
+        return {
+            "1_gcs_folder_exists": os.path.exists("/mnt/gcs"),
+            "2_files_in_gcs": os.listdir("/mnt/gcs") if os.path.exists("/mnt/gcs") else [],
+            "3_tmp_exists": os.path.exists("/tmp")
+        }
+    except Exception as e:
+        return {"error": str(e)}
 
 @router.get("/network")
 async def get_targeted_network(seed: str, mode: str = 'All', all_seeds: str = '', limit: int = 500):
-    global DB_COPIED
-    error_msg = "No error"
-    
-    # 尋找雲端隨身碟的資料庫 (自動適應大小寫)
-    gcs_db_path = None
-    if os.path.exists("/mnt/gcs/regulon.db"):
-        gcs_db_path = "/mnt/gcs/regulon.db"
-    elif os.path.exists("/mnt/gcs/Regulon.db"):
-        gcs_db_path = "/mnt/gcs/Regulon.db"
+    try:
+        error_msg = "No error"
         
-    if gcs_db_path:
-        LOCAL_DB = "/tmp/regulon.db"
-        if not DB_COPIED or not os.path.exists(LOCAL_DB):
-            try:
-                print("🚀 [System] Copying 1.7GB DB to High-Speed RAM...")
-                shutil.copy2(gcs_db_path, LOCAL_DB)
-                DB_COPIED = True
-            except Exception as e:
-                error_msg = f"RAM Copy Error: {e}"
-        db_path_to_use = LOCAL_DB
-    else:
-        # 筆電本機的備案路徑 (這樣你筆電本機跑也不會壞！)
-        db_path_to_use = r"C:\Users\biobe\Desktop\API_Interactomes\regulon.db"
-        error_msg = "DB not found in GCS"
+        # 取消 RAM 複製，直接讀取隨身碟 (測試是否為記憶體不足導致 500)
+        gcs_db_path = None
+        if os.path.exists("/mnt/gcs/regulon.db"):
+            gcs_db_path = "/mnt/gcs/regulon.db"
+        elif os.path.exists("/mnt/gcs/Regulon.db"):
+            gcs_db_path = "/mnt/gcs/Regulon.db"
+            
+        if gcs_db_path:
+            db_path_to_use = gcs_db_path
+        else:
+            db_path_to_use = r"C:\Users\biobe\Desktop\API_Interactomes\regulon.db"
 
-    seed = seed.upper()
-    seed_list = [s.strip().upper() for s in all_seeds.split(',')] if all_seeds else []
-    results = []
-    seen = set()
+        seed = seed.upper()
+        seed_list = [s.strip().upper() for s in all_seeds.split(',')] if all_seeds else []
+        results = []
+        seen = set()
 
-    if os.path.exists(db_path_to_use):
-        try:
+        if os.path.exists(db_path_to_use):
+            # 採用最單純的連線方式，且加上唯讀模式避免鎖定檔案
             db_uri = f"file:{db_path_to_use}?mode=ro"
             conn = sqlite3.connect(db_uri, uri=True)
             c = conn.cursor()
@@ -89,7 +80,17 @@ async def get_targeted_network(seed: str, mode: str = 'All', all_seeds: str = ''
                     results.append({"target": t, "mol_type": row[1], "database": row[2]})
                     seen.add(t)
             conn.close()
-        except Exception as e:
-            error_msg = f"SQL Query Error: {e}"
+        else:
+            error_msg = "DB file not found at path"
 
-    return {"seed": seed, "edges": results, "debug_status": error_msg}
+        return {"seed": seed, "edges": results, "debug_status": error_msg, "db_used": db_path_to_use}
+        
+    except Exception as e:
+        # 這是防止 HTTP 500 的終極護城河，把所有崩潰原因印在網頁上
+        return {
+            "seed": seed, 
+            "edges": [], 
+            "debug_status": "CRASH_PREVENTED", 
+            "error_detail": str(e),
+            "traceback": traceback.format_exc()
+        }
