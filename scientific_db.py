@@ -1,25 +1,42 @@
 ﻿from fastapi import APIRouter
 import sqlite3
 import os
+import shutil
 
 router = APIRouter()
-
-if os.path.exists("/mnt/gcs/regulon.db"):
-    DB_PATH = "/mnt/gcs/regulon.db"
-else:
-    DB_PATH = r"C:\Users\biobe\Desktop\API_Interactomes\regulon.db"
+DB_COPIED = False
 
 @router.get("/network")
 async def get_targeted_network(seed: str, mode: str = 'All', all_seeds: str = '', limit: int = 500):
+    global DB_COPIED
+    
+    # 🚀 終極黑科技：延遲載入 (Lazy Loading) 記憶體資料庫
+    # 檢查是否在雲端環境
+    if os.path.exists("/mnt/gcs/regulon.db"):
+        LOCAL_DB = "/tmp/regulon.db" # Cloud Run 的 /tmp 是超高速的 RAM 記憶體
+        
+        # 只有在「第一次」有人查詢時，才把資料庫拷貝到高速記憶體
+        if not DB_COPIED or not os.path.exists(LOCAL_DB):
+            try:
+                print("🚀 [System] Initializing... Copying 1.7GB DB to RAM (/tmp). This takes ~10 seconds.")
+                shutil.copy2("/mnt/gcs/regulon.db", LOCAL_DB)
+                DB_COPIED = True
+                print("✅ [System] DB copied successfully! Ready for blazing fast queries.")
+            except Exception as e:
+                print(f"❌ [System] DB Copy failed: {e}")
+        db_path_to_use = LOCAL_DB
+    else:
+        db_path_to_use = r"C:\Users\biobe\Desktop\API_Interactomes\regulon.db"
+
     seed = seed.upper()
     seed_list = [s.strip().upper() for s in all_seeds.split(',')] if all_seeds else []
     results = []
     seen = set()
 
-    if os.path.exists(DB_PATH):
+    if os.path.exists(db_path_to_use):
         try:
-            # 🚀 終極解法：強制以「唯讀模式 (mode=ro)」開啟資料庫，完美避開雲端硬碟的鎖定衝突
-            db_uri = f"file:{DB_PATH}?mode=ro"
+            # 使用唯讀模式開啟記憶體中的資料庫
+            db_uri = f"file:{db_path_to_use}?mode=ro"
             conn = sqlite3.connect(db_uri, uri=True)
             c = conn.cursor()
             
