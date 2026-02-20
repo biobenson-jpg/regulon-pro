@@ -18,10 +18,9 @@ async def get_targeted_network(seed: str, mode: str = 'All', all_seeds: str = ''
         # 只有在「第一次」有人查詢時，才把資料庫拷貝到高速記憶體
         if not DB_COPIED or not os.path.exists(LOCAL_DB):
             try:
-                print("🚀 [System] Initializing... Copying 1.7GB DB to RAM (/tmp). This takes ~10 seconds.")
+                print("🚀 [System] Initializing... Copying 1.7GB DB to RAM (/tmp).")
                 shutil.copy2("/mnt/gcs/regulon.db", LOCAL_DB)
                 DB_COPIED = True
-                print("✅ [System] DB copied successfully! Ready for blazing fast queries.")
             except Exception as e:
                 print(f"❌ [System] DB Copy failed: {e}")
         db_path_to_use = LOCAL_DB
